@@ -1,0 +1,18 @@
+1	Atchison	Atchison	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	0	root	_	bois=[B-nam_loc_gpe_city]
+
+1	Atchison	Atchison	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	bois=[B-nam_loc_gpe_city]|nam_rels=[location:1:nam_loc_gpe_city:7:nam_loc_gpe_admin2]
+2	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	3	cop	_	bois=[O]
+3	miasto	miasto	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	0	root	_	bois=[O]
+4	położone	położyć	ADJ	ppas:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	acl	_	bois=[O]
+5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	6	case	_	bois=[O]
+6	hrabstwie	hrabstwo	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	4	obl	_	bois=[O]
+7	Atchison	Atchison	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	bois=[B-nam_loc_gpe_admin2]
+8	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	bois=[O]
+
+1	Zostało	zostać	AUX	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	aux:pass	_	bois=[O]
+2	założone	założyć	ADJ	ppas:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	bois=[O]
+3	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	5	case	_	bois=[O]
+4	1854	1854	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|NumForm=Digit|NumType=Ord	5	amod:flat	_	bois=[O]
+5	roku	rok	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	bois=[O]
+6	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	bois=[O]
+

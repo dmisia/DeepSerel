@@ -1,0 +1,22 @@
+1	Serowe	serowy	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	bois=[B-nam_loc_gpe_city]
+
+1	Serowe	serowy	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	bois=[B-nam_loc_gpe_city]|nam_rels=[location:1:nam_loc_gpe_city:6:nam_loc_gpe_country,location:1:nam_loc_gpe_city:10:nam_loc_gpe_admin1]
+2	–	–	PUNCT	interp	PunctType=Dash	3	punct	_	bois=[O]
+3	miasto	miasto	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	bois=[O]
+4	we	w	ADP	prep:loc:wok	AdpType=Prep|Variant=Long	6	case	_	bois=[O]
+5	wschodniej	wschodni	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	bois=[O]
+6	Botswanie	Botswana	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	bois=[B-nam_loc_gpe_country]
+7	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	bois=[O]
+8	ośrodek	ośrodek	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	bois=[O]
+9	administracyjny	administracyjny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	bois=[O]
+10	Dystryktu	dystrykt	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	bois=[B-nam_loc_gpe_admin1]|nam_rels=[composition:10:nam_loc_gpe_admin1:6:nam_loc_gpe_country]
+11	Centralnego	centralny	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod:flat	_	bois=[I-nam_loc_gpe_admin1]
+12	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	bois=[O]
+
+1	Około	około	PART	part	_	2	advmod:emph	_	bois=[O]
+2	47	47	NUM	num:pl:nom:m3:rec	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	5	nummod:gov	_	bois=[O]
+3	tys	tysiąc	X	brev:pun	Abbr=Yes|Pun=Yes	2	flat	_	bois=[O]
+4	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	bois=[O]
+5	mieszkańców	mieszkaniec	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	0	root	_	bois=[O]
+6	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	bois=[O]
+

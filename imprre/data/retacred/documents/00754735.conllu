@@ -1,0 +1,375 @@
+1	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	4	parataxis:insert	_	bois=[O]
+2	ogóle	ogół	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	bois=[O]
+3	tu	tu	ADV	adv	PronType=Dem	4	advmod	_	bois=[O]
+4	palą	palić	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+
+1	palą	palić	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+
+1	palą	palić	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+2	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	bois=[O]
+
+1	na	na	ADP	prep:loc	AdpType=Prep	2	case	_	bois=[O]
+2	korytarzu	korytarz	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	bois=[O]
+3	palą	palić	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+4	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	3	advmod	_	bois=[O]
+
+1	na	na	ADP	prep:loc	AdpType=Prep	2	case	_	bois=[O]
+2	korytarzu	korytarz	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	bois=[O]
+3	się	się	PRON	part	PronType=Prs|Reflex=Yes	4	expl:pv	_	bois=[O]
+4	pali	palić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+
+1	już	już	PART	part	_	2	advmod:emph	_	bois=[O]
+2	gra	grać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+3	?	?	PUNCT	interp	PunctType=Qest	2	punct	_	bois=[O]
+
+1	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	4	advmod	_	bois=[O]
+2	już	już	PART	part	_	3	advmod:emph	_	bois=[O]
+3	wszystko	wszystko	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	4	nsubj	_	bois=[O]
+4	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+5	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	bois=[O]
+
+1	to	to	PART	part	_	2	advmod:emph	_	bois=[O]
+2	ja	ja	PRON	ppron12:sg:nom:m1:pri	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	bois=[O]
+3	was	wy	PRON	ppron12:pl:acc:m1:sec	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur|Person=2|PronType=Prs	4	iobj	_	bois=[O]
+4	opuszczam	opuszczać	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+
+1	pani	pani	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	bois=[O]
+2	też	też	PART	part	_	3	advmod:emph	_	bois=[O]
+3	ucieka	uciekać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+4	?	?	PUNCT	interp	PunctType=Qest	3	punct	_	bois=[O]
+
+1	nie	nie	PART	part	Polarity=Neg	0	root	_	bois=[O]
+2	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	bois=[O]
+
+1	usiądę	usiąść	VERB	fin:sg:pri:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+2	sobie	siebie	PRON	siebie:dat	Case=Dat|PronType=Prs|Reflex=Yes	1	expl:pv	_	bois=[O]
+3	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	bois=[O]
+
+1	teraz	teraz	ADV	adv	_	4	advmod	_	bois=[O]
+2	się	się	PRON	part	PronType=Prs|Reflex=Yes	4	expl:pv	_	bois=[O]
+3	nie	nie	PART	part	Polarity=Neg	4	advmod:neg	_	bois=[O]
+4	zarwie	zarwie	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+
+1	ja	ja	PRON	ppron12:sg:nom:m1:pri	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	bois=[O]
+2	się	się	PRON	part	PronType=Prs|Reflex=Yes	3	expl:pv	_	bois=[O]
+3	wstydzę	wstydzić	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+
+1	ja	ja	PRON	ppron12:sg:nom:m1:pri	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	0	root	_	bois=[O]
+2	też	też	PART	part	_	1	advmod:emph	_	bois=[O]
+
+1	nie	nie	PART	part	Polarity=Neg	2	advmod:neg	_	bois=[O]
+2	wierzę	wierzyć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+3	że	że	SCONJ	comp	_	6	mark	_	bois=[O]
+4	ty	ty	PRON	ppron12:sg:nom:m1:sec	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	bois=[O]
+5	się	się	PRON	part	PronType=Prs|Reflex=Yes	6	expl:pv	_	bois=[O]
+6	wstydzisz	wstydzić	VERB	fin:sg:sec:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	bois=[O]
+
+1	była	być	AUX	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	bois=[O]
+2	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short	1	aux:clitic	_	bois=[O]
+3	na	na	ADP	prep:loc	AdpType=Prep	4	case	_	bois=[O]
+4	paszarni	paszarnia	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	0	root	_	bois=[O]
+
+1	i	i	CCONJ	conj	_	3	cc	_	bois=[O]
+2	co	co	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	3	nsubj	_	bois=[O]
+3	było	być	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+4	na	na	ADP	prep:acc	AdpType=Prep	5	case	_	bois=[O]
+5	obiadek	obiadek	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	bois=[O]
+6	?	?	PUNCT	interp	PunctType=Qest	3	punct	_	bois=[O]
+
+1	sznycel	sznycel	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+2	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	bois=[O]
+
+1	sznycelek	sznycelek	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+2	brokuły	brokuł	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	fixed	_	bois=[O]
+
+1	zimne	zimny	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	bois=[O]
+
+1	ziemniaki	ziemniak	NOUN	subst:pl:nom:m2	Animacy=Nhum|Case=Nom|Gender=Masc|Number=Plur	0	root	_	bois=[O]
+2	świeże	świeży	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	1	amod	_	bois=[O]
+
+1	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	bois=[O]
+2	znaczy	znaczyć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+3	tam	tam	ADV	adv	PronType=Dem	2	advmod	_	bois=[O]
+4	na	na	ADP	prep:loc	AdpType=Prep	6	case	_	bois=[O]
+5	tej	ten	DET	adj:sg:loc:f:pos	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	bois=[O]
+6	stołówce	stołówka	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	2	obl	_	bois=[O]
+7	tu	tu	ADV	adv	PronType=Dem	2	advmod	_	bois=[O]
+8	?	?	PUNCT	interp	PunctType=Qest	2	punct	_	bois=[O]
+
+1	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	0	root	_	bois=[O]
+
+1	tak	tak	PART	part	Degree=Pos|PronType=Dem	0	root	_	bois=[O]
+2	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	bois=[O]
+
+1	a	a	PART	part	_	3	advmod:emph	_	bois=[O]
+2	zupę	zupa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	bois=[O]
+3	jadła	jeść	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+4	ś	być	AUX	aglt:sg:sec:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=2|Variant=Short	3	aux:clitic	_	bois=[O]
+5	?	?	PUNCT	interp	PunctType=Qest	3	punct	_	bois=[O]
+
+1	jadła	jeść	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+2	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short	1	aux:clitic	_	bois=[O]
+
+1	jaką	jaki	DET	adj:sg:inst:f:pos	Case=Ins|Gender=Fem|Number=Sing|PronType=Int	0	root	_	bois=[O]
+2	?	?	PUNCT	interp	PunctType=Qest	1	punct	_	bois=[O]
+
+1	czerwony	czerwony	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	bois=[O]
+2	barszcz	barszcz	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+3	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	4	case	_	bois=[O]
+4	ziemniakami	ziemniak	NOUN	subst:pl:inst:m2	Animacy=Nhum|Case=Ins|Gender=Masc|Number=Plur	2	nmod	_	bois=[O]
+5	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	bois=[O]
+
+1	bardzo	bardzo	ADV	adv:pos	Degree=Pos	2	advmod	_	bois=[O]
+2	dobre	dobry	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	bois=[O]
+
+1	ja	ja	PRON	ppron12:sg:nom:m1:pri	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	bois=[O]
+2	nie	nie	PART	part	Polarity=Neg	3	advmod:neg	_	bois=[O]
+3	wierzę	wierzyć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+
+1	dobra	dobry	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	bois=[O]
+
+1	bo	bo	SCONJ	comp	_	6	mark	_	bois=[O]
+2	coś	coś	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	6	obj	_	bois=[O]
+3	tam	tam	ADV	adv	PronType=Dem	6	advmod	_	bois=[O]
+4	Justyna	Justyna	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	bois=[B-nam_liv_person_first]
+5	mi	ja	PRON	ppron12:sg:dat:m1:pri:nakc	Animacy=Hum|Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs|Variant=Short	6	iobj	_	bois=[O]
+6	tłumaczyła	tłumaczyć	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+7	że	że	SCONJ	comp	_	9	mark	_	bois=[O]
+8	sfinksa	sfinks	NOUN	subst:sg:acc:m2	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	bois=[B-nam_fac_goe]
+9	zamknęli	zamknąć	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	ccomp	_	bois=[O]
+10	czy	czy	CCONJ	conj	_	11	cc	_	bois=[O]
+11	coś	coś	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	9	obj	_	bois=[O]
+12	tam	tam	ADV	adv	PronType=Dem	9	advmod	_	bois=[O]
+
+1	tak	tak	PART	adv:pos	Degree=Pos|PronType=Dem	3	advmod:emph	_	bois=[O]
+2	nawet	nawet	PART	part	_	3	advmod:emph	_	bois=[O]
+3	dwa	dwa	NUM	num:pl:acc:m3:congr	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Word	0	root	_	bois=[O]
+
+1	może	może	PART	part	PartType=Mod	3	advmod:emph	_	bois=[O]
+2	wakacje	wakacje	NOUN	subst:pl:nom:n:pt	Case=Nom|Gender=Neut|Number=Ptan	3	nsubj	_	bois=[O]
+3	mają	mieć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+
+1	noo	noo	ADV	adv:pos	_	0	root	_	bois=[O]
+
+1	albo	albo	CCONJ	conj	_	4	cc	_	bois=[O]
+2	siła	siła	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	bois=[O]
+3	robocza	roboczy	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	bois=[O]
+4	wyjechała	wyjechać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+
+1	Dżudi	Dżudi	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	bois=[B-nam_liv_person]
+2	tam	tam	ADV	adv	PronType=Dem	4	advmod	_	bois=[O]
+3	ostatnio	ostatnio	ADV	adv:pos	Degree=Pos	4	advmod	_	bois=[O]
+4	była	być	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+5	i	i	CCONJ	conj	_	6	cc	_	bois=[O]
+6	jadła	jeść	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	bois=[O]
+7	spaghetti	spaghetti	NOUN	subst:pl:acc:n:ncol	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	bois=[O]
+8	i	i	CCONJ	conj	_	9	cc	_	bois=[O]
+9	zamknęli	zamknąć	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	bois=[O]
+10	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	12	case	_	bois=[O]
+11	tego	ten	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	bois=[O]
+12	powodu	powód	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	bois=[O]
+
+1	aaaa	aaaa	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	advmod	_	bois=[O]
+2	ja	ja	PRON	ppron12:sg:nom:f:pri	Case=Nom|Gender=Fem|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	bois=[O]
+3	słyszała	słyszeć	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+4	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short	3	aux:clitic	_	bois=[O]
+5	że	że	SCONJ	comp	_	6	mark	_	bois=[O]
+6	reklamacja	reklamacja	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	bois=[O]
+7	była	być	AUX	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	bois=[O]
+
+1	normalnie	normalnie	ADV	adv:pos	Degree=Pos	3	advmod	_	bois=[O]
+2	manianę	maniana	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	bois=[O]
+3	odchszaniają	odchszaniaja	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	_	bois=[O]
+
+1	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	2	case	_	bois=[O]
+2	wstążkami	wstążka	NOUN	subst:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur	7	obl:arg	_	bois=[O]
+3	czy	czy	CCONJ	conj	_	4	cc	_	bois=[O]
+4	tam	tam	ADV	adv	PronType=Dem	7	conj	_	bois=[O]
+5	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	6	case	_	bois=[O]
+6	czymś	coś	PRON	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing|PronType=Ind	7	obl:arg	_	bois=[O]
+7	dali	dać	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+8	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	7	advmod	_	bois=[O]
+9	?	?	PUNCT	interp	PunctType=Qest	7	punct	_	bois=[O]
+
+1	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	2	case	_	bois=[O]
+2	makaronem	makaron	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+3	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	4	case	_	bois=[O]
+4	rosołu	rosół	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	bois=[O]
+5	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	bois=[O]
+
+1	taki	taki	DET	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	bois=[O]
+2	króciutki	króciutki	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	bois=[O]
+3	żółciutki	żółciutki	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+
+1	może	może	PART	part	PartType=Mod	4	advmod:emph	_	bois=[O]
+2	im	on	PRON	ppron3:pl:dat:m1:ter:akc:npraep	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	4	iobj	_	bois=[O]
+3	się	się	PRON	part	PronType=Prs|Reflex=Yes	4	expl:pv	_	bois=[O]
+4	połamało	połamać	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+5	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	4	advmod	_	bois=[O]
+6	?	?	PUNCT	interp	PunctType=Qest	4	punct	_	bois=[O]
+
+1	nie	nie	PART	part	Polarity=Neg	2	advmod:neg	_	bois=[O]
+2	koniecznie	koniecznie	ADV	adv:pos	Degree=Pos	0	root	_	bois=[O]
+
+1	nie	nie	PART	part	Polarity=Neg	0	root	_	bois=[O]
+2	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	bois=[O]
+
+1	aż	aż	PART	comp	_	3	mark	_	bois=[O]
+2	takie	taki	DET	adj:sg:nom:n:pos	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj:pass	_	bois=[O]
+3	zaschnięte	zaschnić	ADJ	ppas:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	bois=[O]
+4	było	być	AUX	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	bois=[O]
+
+1	no	no	PART	part	_	5	advmod	_	bois=[O]
+2	co	co	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	5	nsubj	_	bois=[O]
+3	zostało	zostać	AUX	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	_	bois=[O]
+4	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	bois=[O]
+5	dali	dać	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+6	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	5	advmod	_	bois=[O]
+7	?	?	PUNCT	interp	PunctType=Qest	5	punct	_	bois=[O]
+
+1	potem	potem	ADV	adv	_	3	advmod	_	bois=[O]
+2	jakoś	jakoś	ADV	adv:pos	Degree=Pos|PronType=Ind	3	advmod	_	bois=[O]
+3	mogli	móc	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+4	ugotować	ugotować	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	bois=[O]
+
+1	jakieś	jakiś	DET	adj:pl:nom:f:pos	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	bois=[O]
+2	ładne	ładny	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	nsubj	_	bois=[O]
+3	dali	dać	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+4	i	i	CCONJ	conj	_	5	cc	_	bois=[O]
+5	więcej	więcej	DET	num:pl:acc:m3:rec	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	3	conj	_	bois=[O]
+6	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	bois=[O]
+
+1	i	i	PART	conj	_	4	advmod:emph	_	bois=[O]
+2	Justa	Justa	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	bois=[B-nam_liv_person_first]
+3	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	4	advmod	_	bois=[O]
+4	ten	ten	DET	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	0	root	_	bois=[O]
+5	?	?	PUNCT	interp	PunctType=Qest	4	punct	_	bois=[O]
+
+1	Justa	Justa	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	_	bois=[B-nam_liv_person_first]
+2	!	!	PUNCT	interp	PunctType=Excl	1	punct	_	bois=[O]
+
+1	Justa	Justa	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	bois=[B-nam_liv_person_first]
+2	co	co	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	3	obj	_	bois=[O]
+3	robisz	robić	VERB	fin:sg:sec:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+4	?	?	PUNCT	interp	PunctType=Qest	3	punct	_	bois=[O]
+
+1	siku	sik	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+2	!	!	PUNCT	interp	PunctType=Excl	1	punct	_	bois=[O]
+
+1	siii	sićć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+
+1	a	a	CCONJ	conj	_	3	cc	_	bois=[O]
+2	ja	ja	PRON	ppron12:sg:nom:f:pri	Case=Nom|Gender=Fem|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	bois=[O]
+3	myślała	myśleć	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+4	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short	3	aux:clitic	_	bois=[O]
+5	że	że	SCONJ	comp	_	8	mark	_	bois=[O]
+6	ty	ty	PRON	ppron12:sg:nom:m1:sec	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	bois=[O]
+7	ręce	ręka	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	bois=[O]
+8	myjesz	myć	VERB	fin:sg:sec:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	bois=[O]
+
+1	kiedyś	kiedyś	ADV	adv	PronType=Ind	3	advmod	_	bois=[O]
+2	jak	jak	ADV	adv:pos	Degree=Pos|PronType=Int	3	advmod	_	bois=[O]
+3	weszła	wejść	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+4	do	do	ADP	prep:gen	AdpType=Prep	5	case	_	bois=[O]
+5	ubikacji	ubikacja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	bois=[O]
+6	coś	coś	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	3	obj	_	bois=[O]
+7	tam	tam	ADV	adv	PronType=Dem	3	advmod	_	bois=[O]
+8	ktoś	ktoś	PRON	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	bois=[O]
+9	tam	tam	ADV	adv	PronType=Dem	3	advmod	_	bois=[O]
+10	siku	sik	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod:arg	_	bois=[O]
+11	a	a	CCONJ	conj	_	13	cc	_	bois=[O]
+12	ja	ja	PRON	ppron12:sg:nom:f:pri	Case=Nom|Gender=Fem|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	bois=[O]
+13	siii	sićć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	bois=[O]
+14	Justa	Justa	PROPN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	bois=[B-nam_liv_person_first]
+15	co	co	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	16	obj	_	bois=[O]
+16	robisz	robić	VERB	fin:sg:sec:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	13	ccomp	_	bois=[O]
+17	?	?	PUNCT	interp	PunctType=Qest	3	punct	_	bois=[O]
+
+1	Justa	Justa	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	_	bois=[B-nam_liv_person_first]
+2	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	bois=[O]
+
+1	a	a	PART	part	_	5	advmod:emph	_	bois=[O]
+2	do	do	ADP	prep:gen	AdpType=Prep	3	case	_	bois=[O]
+3	kogo	kto	PRON	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing|PronType=Int	5	obl:arg	_	bois=[O]
+4	ty	ty	PRON	ppron12:sg:nom:m1:sec	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	bois=[O]
+5	mówisz	mówić	VERB	fin:sg:sec:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+6	?	?	PUNCT	interp	PunctType=Qest	5	punct	_	bois=[O]
+
+1	no	no	ADV	part	_	2	advmod	_	bois=[O]
+2	było	być	AUX	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+
+1	właśnie	właśnie	PART	part	_	2	advmod:emph	_	bois=[O]
+2	Justa	Justa	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	bois=[B-nam_liv_person_first]
+3	myje	myć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+4	rączki	rączka	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	bois=[O]
+
+1	pucze	pucz	NOUN	subst:pl:nom:n:pt	Case=Nom|Gender=Neut|Number=Ptan	2	nsubj	_	bois=[O]
+2	gardło	gardćoć	NOUN	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+3	wodą	woda	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	2	iobj	_	bois=[O]
+4	toaletową	toaletowy	ADJ	adj:sg:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	bois=[O]
+
+1	och	och	PUNCT	interp	_	2	punct	_	bois=[O]
+2	jejku	jejkk	NOUN	subst:sg:dat:m1	Case=Dat|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+
+1	moment	moment	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+2	ciszy	cisza	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	1	nmod:arg	_	bois=[O]
+
+1	babcie	babcia	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	bois=[O]
+2	uczyła	uczyć	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+3	mówić	mówić	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	bois=[O]
+
+1	babcia	babcia	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	bois=[O]
+2	też	też	PART	part	_	3	advmod:emph	_	bois=[O]
+3	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+4	?	?	PUNCT	interp	PunctType=Qest	3	punct	_	bois=[O]
+
+1	słucham	słuchać	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+2	?	?	PUNCT	interp	PunctType=Qest	1	punct	_	bois=[O]
+
+1	babcia	babcia	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	bois=[O]
+2	też	też	PART	part	_	3	advmod:emph	_	bois=[O]
+3	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+4	?	?	PUNCT	interp	PunctType=Qest	3	punct	_	bois=[O]
+
+1	nie	nie	PART	part	Polarity=Neg	4	advmod:neg	_	bois=[O]
+2	babci	babć	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nsubj	_	bois=[O]
+3	nie	nie	PART	part	Polarity=Neg	4	advmod:neg	_	bois=[O]
+4	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+5	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	bois=[O]
+
+1	tylko	tylko	PART	part	_	2	advmod:emph	_	bois=[O]
+2	babcie	babcia	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	bois=[O]
+3	uczyła	uczyć	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+4	mówić	mówić	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	bois=[O]
+5	żeby	żeby	SCONJ	comp	_	3	mark	_	bois=[O]
+
+1	i	i	CCONJ	conj	_	2	cc	_	bois=[O]
+2	babcia	babcia	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	bois=[O]
+3	załapała	załapać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+
+1	znamy	znać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+2	ten	ten	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	bois=[O]
+3	system	system	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	bois=[O]
+
+1	halo	halo	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	0	root	_	bois=[O]
+2	!	!	PUNCT	interp	PunctType=Excl	1	punct	_	bois=[O]
+
+1	baza	baza	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	_	bois=[O]
+2	jeden	jeden	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	bois=[O]
+3	jeden	jeden	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	bois=[O]
+
+1	de	de	X	frag	Foreign=Yes	0	root	_	bois=[O]
+2	es	es	X	ign	Foreign=Yes	1	flat:foreign	_	bois=[O]
+3	trzynaście	trzynaście	X	ign	Foreign=Yes	2	flat:foreign	_	bois=[O]
+4	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	bois=[O]
+
+1	de	de	X	frag	Foreign=Yes	0	root	_	bois=[O]
+2	es	es	X	ign	Foreign=Yes	1	flat:foreign	_	bois=[O]
+3	trzynaście	trzynaście	NUM	num:pl:nom:m3:rec	Number=Plur|NumForm=Word	2	flat:foreign	_	bois=[O]
+
+1	dobrze	dobrze	ADV	adv:pos	Degree=Pos	0	root	_	bois=[O]
+2	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	bois=[O]
+
+1	dziękuję	dziękować	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+2	wam	wy	PRON	ppron12:pl:dat:m1:sec	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|Person=2|PronType=Prs	1	iobj	_	bois=[O]
+

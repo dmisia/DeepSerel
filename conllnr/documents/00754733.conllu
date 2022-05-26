@@ -1,0 +1,57 @@
+1	co	co	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	0	root	_	bois=[O]
+2	?	?	PUNCT	interp	PunctType=Qest	1	punct	_	bois=[O]
+
+1	gdzie	gdzie	ADV	adv	PronType=Int	2	advmod	_	bois=[O]
+2	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+3	babcia	babcia	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	bois=[O]
+4	?	?	PUNCT	interp	PunctType=Qest	2	punct	_	bois=[O]
+
+1	ty	ty	PRON	ppron12:sg:nom:m1:sec	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	bois=[O]
+2	mi	ja	PRON	ppron12:sg:dat:m1:pri:nakc	Animacy=Hum|Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs|Variant=Short	3	iobj	_	bois=[O]
+3	powiedź	powiedź	NOUN	subst:sg:acc:f	Aspect=Perf|Number=Sing|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+
+1	tam	tam	ADV	adv	PronType=Dem	0	root	_	bois=[O]
+2	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	bois=[O]
+
+1	tam	tam	ADV	adv	PronType=Dem	0	root	_	bois=[O]
+
+1	aha	aha	AUX	impt:sg:sec:imperf	_	0	root	_	bois=[O]
+
+1	tam	tam	ADV	adv	PronType=Dem	2	advmod	_	bois=[O]
+2	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+3	babcia	babcia	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	bois=[O]
+
+1	hehe	hehe	X	subst:sg:nom:m3	_	0	root	_	bois=[O]
+2	_	[	PUNCT	interp	_	1	punct	_	bois=[O]
+3	voice	voice	PROPN	subst:sg:nom:n:ncol	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	bois=[O]
+4	:	:	PUNCT	interp	PunctType=Colo	1	punct	_	bois=[O]
+5	śmiech	śmiech	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	bois=[O]
+6	_	”	PUNCT	interp	PunctType=Quot	5	punct	_	bois=[O]
+
+1	powoli	powoli	ADV	adv	_	0	root	_	bois=[O]
+
+1	wołaj	wołać	VERB	impt:sg:sec:imperf	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	4	xcomp	_	bois=[O]
+2	zawołaj	zawołaj	NOUN	subst:sg:voc:m1	Animacy=Hum|Case=Dat|Gender=Masc|Number=Sing	4	iobj	_	bois=[O]
+3	babcia	babcia	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	appos	_	bois=[O]
+4	zaczekaj	zaczekać	VERB	impt:sg:sec:perf	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+
+1	babcia	babcia	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	bois=[O]
+2	zaczekaj	zaczekać	VERB	impt:sg:sec:perf	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+3	!	!	PUNCT	interp	PunctType=Excl	2	punct	_	bois=[O]
+
+1	strzela	strzelać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+2	do	do	ADP	prep:gen	AdpType=Prep	3	case	_	bois=[O]
+3	ciebie	ty	PRON	ppron12:sg:gen:m1:sec:akc	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs|Variant=Long	1	obl:arg	_	bois=[O]
+4	!	!	PUNCT	interp	PunctType=Excl	1	punct	_	bois=[O]
+
+1	no	no	PART	part	_	3	advmod	_	bois=[O]
+2	już	już	PART	part	_	3	advmod:emph	_	bois=[O]
+3	dobrze	dobrze	ADV	adv:pos	Degree=Pos	0	root	_	bois=[O]
+4	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	bois=[O]
+
+1	no	no	PART	part	_	2	advmod	_	bois=[O]
+2	ruszaj	ruszać	VERB	impt:sg:sec:imperf	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+3	się	się	PRON	part	PronType=Prs|Reflex=Yes	2	expl:pv	_	bois=[O]
+4	do	do	ADP	prep:gen	AdpType=Prep	5	case	_	bois=[O]
+5	przodu	przód	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	bois=[O]
+

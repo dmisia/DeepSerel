@@ -1,0 +1,40 @@
+1	proszę	prosić	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+
+1	dla	dla	ADP	prep:gen	AdpType=Prep	2	case	_	bois=[O]
+2	mnie	ja	PRON	ppron12:sg:gen:m1:pri:akc	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs|Variant=Long	4	obl	_	bois=[O]
+3	kawę	kawa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	bois=[O]
+4	poproszę	poprosić	VERB	fin:sg:pri:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+
+1	parzoną	parzony	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	bois=[O]
+
+1	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	0	root	_	bois=[O]
+
+1	rozpuszczalną	rozpuszczalny	ADJ	adj:sg:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	bois=[O]
+
+1	rozpuszczalna	rozpuszczalny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	bois=[O]
+
+1	rozpuszczalną	rozpuszczalny	ADJ	adj:sg:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	bois=[O]
+2	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	1	advmod	_	bois=[O]
+3	?	?	PUNCT	interp	PunctType=Qest	1	punct	_	bois=[O]
+
+1	ze	z	ADP	prep:inst:wok	AdpType=Prep|Variant=Long	2	case	_	bois=[O]
+2	śmietanką	śmietanka	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	3	obl:arg	_	bois=[O]
+3	będzie	być	VERB	bedzie:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	bois=[O]
+4	?	?	PUNCT	interp	PunctType=Qest	3	punct	_	bois=[O]
+
+1	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	0	root	_	bois=[O]
+
+1	trzy	trzy	NUM	num:pl:nom:m3:congr	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	0	root	_	bois=[O]
+2	pięćdziesiąt	pięćdziesiąt	NUM	num:pl:nom:m3:rec	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	1	flat	_	bois=[O]
+
+1	na	na	ADP	prep:loc	AdpType=Prep	2	case	_	bois=[O]
+2	miejscu	miejsce	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	0	root	_	bois=[O]
+3	?	?	PUNCT	interp	PunctType=Qest	2	punct	_	bois=[O]
+
+1	czy	czy	PART	part	PartType=Int	3	cc	_	bois=[O]
+2	na	na	ADP	prep:acc	AdpType=Prep	3	case	_	bois=[O]
+3	wynos	wynos	NOUN	subst:sg:acc:m3	Case=Acc|Gender=Fem|Number=Sing	0	root	_	bois=[O]
+
+1	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	2	advmod	_	bois=[O]
+2	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+

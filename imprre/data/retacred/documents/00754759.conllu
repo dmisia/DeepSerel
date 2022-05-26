@@ -1,0 +1,103 @@
+1	siedem	siedem	NUM	num:pl:nom:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Word	2	nummod:gov	_	bois=[O]
+2	trzydzieści	trzydzieści	NUM	num:pl:nom:m3:rec	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	0	root	_	bois=[O]
+3	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	bois=[O]
+
+1	hamburgera	hamburger	NOUN	subst:sg:acc:m2	Animacy=Nhum|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	bois=[O]
+2	poproszę	poprosić	VERB	fin:sg:pri:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+3	!	!	PUNCT	interp	PunctType=Excl	2	punct	_	bois=[O]
+4	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	bois=[O]
+
+1	proszę	prosić	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+2	bardzo	bardzo	ADV	adv:pos	Degree=Pos	1	advmod	_	bois=[O]
+3	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	bois=[O]
+
+1	yyy	yyy	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+2	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	bois=[O]
+
+1	sos	sos	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+2	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	3	case	_	bois=[O]
+3	marchewce	marchewka	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	bois=[O]
+4	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	bois=[O]
+
+1	siedem	siedem	NUM	num:pl:nom:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Word	2	nummod:gov	_	bois=[O]
+2	trzydzieści	trzydzieści	NUM	num:pl:nom:m3:rec	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	0	root	_	bois=[O]
+3	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	bois=[O]
+
+1	proszę	prosić	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+2	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	bois=[O]
+
+1	Ola	Ola	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	bois=[B-nam_liv_person_first]
+2	podasz	podać	VERB	fin:sg:sec:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+3	mi	ja	PRON	ppron12:sg:dat:m1:pri:nakc	Animacy=Hum|Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs|Variant=Short	2	iobj	_	bois=[O]
+4	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	bois=[O]
+
+1	dwa	dwa	NUM	num:pl:nom:m3:congr	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	2	nummod	_	bois=[O]
+2	siedemdziesiąt	siedemdziesiąt	NUM	num:pl:nom:m3:rec	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	0	root	_	bois=[O]
+3	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	bois=[O]
+
+1	rojala	rojala	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+2	?	?	PUNCT	interp	PunctType=Qest	1	punct	_	bois=[O]
+
+1	hrbatę	hrbata	NOUN	subst:sg:acc:f	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+2	coca	coc	NOUN	subst:sg:gen:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	1	fixed	_	bois=[O]
+3	-	-	PUNCT	interp	PunctType=Hyph	4	punct	_	bois=[O]
+4	colę	cola	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	appos	_	bois=[O]
+5	duże	duży	ADJ	adj:pl:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	bois=[O]
+6	frytki	frytek	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	appos	_	bois=[O]
+7	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	bois=[O]
+
+1	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	bois=[O]
+2	hamburger	hamburger	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+3	?	?	PUNCT	interp	PunctType=Qest	2	punct	_	bois=[O]
+4	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	bois=[O]
+5	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	bois=[O]
+
+1	proszę	prosić	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+2	bardzo	bardzo	ADV	adv:pos	Degree=Pos	1	advmod	_	bois=[O]
+3	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	bois=[O]
+
+1	co	co	PRON	comp	Gender=Neut|Number=Sing|PronType=Int	3	mark	_	bois=[O]
+2	dla	dla	ADP	prep:gen	AdpType=Prep	3	case	_	bois=[O]
+3	pani	pani	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	0	root	_	bois=[O]
+4	?	?	PUNCT	interp	PunctType=Qest	3	punct	_	bois=[O]
+
+1	dwa	dwa	NUM	num:pl:acc:m3:congr	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Word	2	nummod	_	bois=[O]
+2	razy	raz	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	nmod	_	bois=[O]
+3	iksel	iksel	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+4	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	5	case	_	bois=[O]
+5	bigmakiem	bigmak	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	nmod	_	bois=[O]
+6	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	bois=[O]
+
+1	yyh	yyh	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+2	i	i	CCONJ	conj	_	4	cc	_	bois=[O]
+3	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	4	case	_	bois=[O]
+4	colą	cola	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	1	conj	_	bois=[O]
+5	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	bois=[O]
+
+1	na	na	ADP	prep:acc	AdpType=Prep	2	case	_	bois=[O]
+2	wynos	wynos	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+3	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	bois=[O]
+
+1	bardzo	bardzo	ADV	adv:pos	Degree=Pos	2	advmod	_	bois=[O]
+2	proszę	prosić	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+3	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	bois=[O]
+
+1	dziewiętnaście	dziewiętnaście	NUM	num:pl:nom:m2:rec	Animacy=Nhum|Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	2	nummod:gov	_	bois=[O]
+2	złotych	złoty	NOUN	subst:pl:gen:m2	Animacy=Nhum|Case=Gen|Gender=Masc|Number=Plur	3	nsubj	_	bois=[B-nam_oth_currency]
+3	będzie	być	VERB	bedzie:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	bois=[O]
+4	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	bois=[O]
+
+1	dwa	dwa	NUM	num:pl:acc:m3:congr	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Word	2	nummod	_	bois=[O]
+2	bigmaki	bigmak	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	bois=[O]
+3	poproszę	poprosić	VERB	fin:sg:pri:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+4	!	!	PUNCT	interp	PunctType=Excl	3	punct	_	bois=[O]
+5	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	bois=[O]
+
+1	osiemdziesiąt	osiemdziesiąt	NUM	num:pl:nom:m2:congr	Animacy=Nhum|Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	3	nummod:gov	_	bois=[O]
+2	jeden	jeden	ADJ	adj:sg:nom:m2:pos	Animacy=Nhum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	bois=[O]
+3	złotych	złoty	NOUN	subst:pl:gen:m2	Animacy=Nhum|Case=Gen|Gender=Masc|Number=Plur	4	nsubj	_	bois=[B-nam_oth_currency]
+4	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+5	dla	dla	ADP	prep:gen	AdpType=Prep	6	case	_	bois=[O]
+6	pani	pani	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	bois=[O]
+7	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	bois=[O]
+

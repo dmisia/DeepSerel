@@ -1,0 +1,326 @@
+1	chce	chcieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+2	pani	pani	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	bois=[O]
+3	sprzedać	sprzedać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	bois=[O]
+4	tego	ten	DET	adj:sg:acc:m2:pos	Animacy=Nhum|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	bois=[O]
+5	psa	pies	NOUN	subst:sg:acc:m2	Animacy=Nhum|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	bois=[O]
+6	?	?	PUNCT	interp	PunctType=Qest	1	punct	_	bois=[O]
+
+1	nie	nie	PART	part	Polarity=Neg	0	root	_	bois=[O]
+
+1	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+2	nie	nie	PART	part	Polarity=Neg	4	advmod:neg	_	bois=[O]
+3	na	na	ADP	prep:acc	AdpType=Prep	4	case	_	bois=[O]
+4	sprzedaż	sprzedaż	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	obl:arg	_	bois=[O]
+
+1	rozumiem	rozumieć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+
+1	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	bois=[O]
+2	do	do	ADP	prep:gen	AdpType=Prep	3	case	_	bois=[O]
+3	zobaczenia	zobaczyć	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	0	root	_	bois=[O]
+
+1	do	do	ADP	prep:gen	AdpType=Prep	2	case	_	bois=[O]
+2	zobaczenia	zobaczyć	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	0	root	_	bois=[O]
+
+1	czy	czy	PART	part	PartType=Int	5	advmod	_	bois=[O]
+2	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	5	cop	_	bois=[O]
+3	nie	nie	PART	part	Polarity=Neg	4	advmod:neg	_	bois=[O]
+4	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	bois=[O]
+5	York	York	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+6	?	?	PUNCT	interp	PunctType=Qest	5	punct	_	bois=[O]
+
+1	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	4	advmod	_	bois=[O]
+2	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	4	cop	_	bois=[O]
+3	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	bois=[O]
+4	York	York	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+
+1	pani	pani	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	bois=[O]
+2	na	na	ADP	prep:loc	AdpType=Prep	3	case	_	bois=[O]
+3	wczasach	wczas	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	bois=[O]
+4	tutaj	tutaj	ADV	adv	PronType=Dem	5	advmod	_	bois=[O]
+5	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+6	?	?	PUNCT	interp	PunctType=Qest	5	punct	_	bois=[O]
+
+1	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	0	root	_	bois=[O]
+
+1	mój	mój	DET	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	bois=[O]
+2	ojciec	ojciec	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	bois=[O]
+3	był	być	AUX	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	bois=[O]
+4	organistą	organista	NOUN	subst:sg:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+5	tutaj	tutaj	ADV	adv	PronType=Dem	4	advmod	_	bois=[O]
+6	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	7	case	_	bois=[O]
+7	tym	to	PRON	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	4	nmod	_	bois=[O]
+
+1	przecieź	przecie	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	2	cop	_	bois=[O]
+2	organistą	organista	NOUN	subst:sg:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+3	był	być	AUX	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	bois=[O]
+4	no	no	PART	part	_	9	advmod	_	bois=[O]
+5	co	co	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	9	obj	_	bois=[O]
+6	ty	ty	PRON	ppron12:sg:nom:m1:sec	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	bois=[O]
+7	co	co	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	9	obj	_	bois=[O]
+8	ty	ty	PRON	ppron12:sg:nom:m1:sec	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	bois=[O]
+9	pieprzysz	pieprzyć	VERB	fin:sg:sec:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis:obj	_	bois=[O]
+10	?	?	PUNCT	interp	PunctType=Qest	9	punct	_	bois=[O]
+
+1	wiem	wiedzieć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+2	panie	pan	NOUN	subst:sg:voc:m1	Animacy=Hum|Case=Voc|Gender=Masc|Number=Sing	1	vocative	_	bois=[O]
+3	Andrzeju	Andrzej	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	bois=[B-nam_liv_person_first]
+
+1	pani	pani	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	bois=[O]
+2	mnie	ja	PRON	ppron12:sg:acc:m1:pri:akc	Animacy=Hum|Case=Acc|Gender=Fem|Number=Sing|Person=1|PronType=Prs|Variant=Long	3	obj	_	bois=[O]
+3	zna	znać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+4	?	?	PUNCT	interp	PunctType=Qest	3	punct	_	bois=[O]
+
+1	no	no	PART	part	_	0	root	_	bois=[O]
+
+1	_	”	PUNCT	interp	PunctType=Quot	2	punct	_	bois=[O]
+2	gap	gap	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	_	bois=[O]
+3	:	:	PUNCT	interp	PunctType=Colo	2	punct	_	bois=[O]
+4	unclear	unclear	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	parataxis:obj	_	bois=[O]
+5	_	”	PUNCT	interp	PunctType=Quot	2	punct	_	bois=[O]
+
+1	teraz	teraz	ADV	adv	_	2	advmod	_	bois=[O]
+2	podpadł	podpaść	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+3	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Long	2	aux:clitic	_	bois=[O]
+
+1	he	he	X	ign	_	0	root	_	bois=[O]
+2	he	he	X	ign	Foreign=Yes	1	flat:foreign	_	bois=[O]
+3	he	he	X	ign	Foreign=Yes	2	flat:foreign	_	bois=[O]
+
+1	co	co	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	0	root	_	bois=[O]
+2	Stasio	Stasio	PROPN	subst:sg:voc:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	1	vocative	_	bois=[B-nam_liv_person_first]
+3	?	?	PUNCT	interp	PunctType=Qest	2	punct	_	bois=[O]
+
+1	dzień	dzień	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+2	dobry	dobry	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	bois=[O]
+3	dzień	dzień	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	bois=[O]
+4	dobry	dobry	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	bois=[O]
+
+1	dzień	dzień	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+2	dobry	dobry	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	bois=[O]
+
+1	co	co	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	3	nsubj	_	bois=[O]
+2	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	1	cop	_	bois=[O]
+3	Rysiu	Rysiu	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	0	root	_	bois=[B-nam_liv_person_first]
+4	był	być	AUX	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	aux	_	bois=[O]
+5	?	?	PUNCT	interp	PunctType=Qest	3	punct	_	bois=[O]
+
+1	_	”	PUNCT	interp	PunctType=Quot	2	punct	_	bois=[O]
+2	gap	gap	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	_	bois=[O]
+3	:	:	PUNCT	interp	PunctType=Colo	2	punct	_	bois=[O]
+4	unclear	unclear	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	parataxis:obj	_	bois=[O]
+5	_	”	PUNCT	interp	PunctType=Quot	2	punct	_	bois=[O]
+
+1	na	na	ADP	prep:acc	AdpType=Prep	4	case	_	bois=[O]
+2	stu	sto	NUM	num:pl:acc:f:congr	Case=Acc|Gender=Fem|Number=Plur|NumForm=Word	4	nummod	_	bois=[O]
+3	_	”	PUNCT	interp	PunctType=Quot	4	punct	_	bois=[O]
+4	gap	gap	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	0	root	_	bois=[O]
+5	:	:	PUNCT	interp	PunctType=Colo	4	punct	_	bois=[O]
+6	unclear	unclear	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	bois=[O]
+7	_	”	PUNCT	interp	PunctType=Quot	6	punct	_	bois=[O]
+8	ja	ja	PRON	ppron12:sg:nom:m1:pri	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	bois=[O]
+9	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	13	parataxis:insert	_	bois=[O]
+10	ogóle	ogół	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	fixed	_	bois=[O]
+11	lotników	lotnik	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	13	obj	_	bois=[O]
+12	nie	nie	PART	part	Polarity=Neg	13	advmod:neg	_	bois=[O]
+13	widzę	widzieć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis:obj	_	bois=[O]
+
+1	a	a	PART	part	_	2	advmod:emph	_	bois=[O]
+2	weź	wziąć	VERB	impt:sg:sec:perf	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+3	se	sy	PRON	ppron12:sg:acc:m1:sec:nakc	Case=Acc|Gender=Fem|Number=Sing|Person=2|PronType=Prs|Variant=Short	2	obj	_	bois=[O]
+4	załóż	założyć	VERB	impt:sg:sec:perf	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	2	xcomp	_	bois=[O]
+5	no	no	ADV	adv	_	4	advmod	_	bois=[O]
+6	to	to	AUX	pred	VerbType=Quasi	8	cop	_	bois=[O]
+7	_	”	PUNCT	interp	PunctType=Quot	8	punct	_	bois=[O]
+8	gap	gap	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	bois=[O]
+9	:	:	PUNCT	interp	PunctType=Colo	10	punct	_	bois=[O]
+10	unclear	unclear	NOUN	subst:sg:nom:m1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	bois=[O]
+11	_	”	PUNCT	interp	PunctType=Quot	10	punct	_	bois=[O]
+
+1	Tupek	Tupek	PROPN	subst:sg:nom:n:ncol	Case=Nom|Gender=Masc|Number=Sing	0	root	_	bois=[B-nam_liv_person]
+2	!	!	PUNCT	interp	PunctType=Excl	1	punct	_	bois=[O]
+
+1	ale	ale	CCONJ	conj	_	5	cc	_	bois=[O]
+2	pani	pani	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	bois=[O]
+3	ze	z	ADP	prep:gen:wok	AdpType=Prep|Variant=Long	4	case	_	bois=[O]
+4	Sworów	Swórów	PROPN	subst:sg:gen:m3	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	bois=[B-nam_loc_gpe_city]
+5	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+6	?	?	PUNCT	interp	PunctType=Qest	5	punct	_	bois=[O]
+
+1	nie	nie	PART	part	Polarity=Neg	3	advmod:neg	_	bois=[O]
+2	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	3	case	_	bois=[O]
+3	Łodzi	Łódź	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	0	root	_	bois=[B-nam_loc_gpe_city]
+
+1	aha	aha	AUX	impt:sg:sec:imperf	_	0	root	_	bois=[O]
+
+1	aaaa	aaaa	INTJ	interj	Number=Sing	0	root	_	bois=[O]
+2	!	!	PUNCT	interp	PunctType=Excl	1	punct	_	bois=[O]
+
+1	teraz	teraz	ADV	adv	_	3	advmod	_	bois=[O]
+2	dopiero	dopiero	PART	part	_	3	advmod:emph	_	bois=[O]
+3	zaczaił	zaczaić	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+4	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Long	3	aux:clitic	_	bois=[O]
+
+1	Ola	Ola	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	_	bois=[B-nam_liv_person_first]
+2	jo	jo	PROPN	subst:sg:voc:f	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	bois=[O]
+3	?	?	PUNCT	interp	PunctType=Qest	1	punct	_	bois=[O]
+
+1	Ola	Ola	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	_	bois=[B-nam_liv_person_first]
+
+1	Matko	Matko	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	bois=[B-nam_liv_god]
+2	Święta	Święto	PROPN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	1	flat	_	bois=[I-nam_liv_god]
+3	teraz	teraz	ADV	adv	_	5	advmod	_	bois=[O]
+4	to	to	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	obj	_	bois=[O]
+5	spalił	spalić	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+6	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Long	5	aux:clitic	_	bois=[O]
+
+1	no	no	PART	part	_	0	root	_	bois=[O]
+
+1	już	już	PART	part	_	2	advmod:emph	_	bois=[O]
+2	wszystko	wszystko	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	3	iobj	_	bois=[O]
+3	mamy	mieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+4	?	?	PUNCT	interp	PunctType=Qest	3	punct	_	bois=[O]
+
+1	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	2	advmod	_	bois=[O]
+2	proszę	prosić	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	bois=[O]
+3	kija	kij	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	bois=[O]
+4	wziąść	wziąść	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	bois=[O]
+5	proszę	prosić	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+6	wziąść	wziąść	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	bois=[O]
+
+1	pani	pani	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	bois=[O]
+2	pani	pani	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	bois=[O]
+3	Iza	Iza	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	bois=[B-nam_liv_person_first]
+4	jeszcze	jeszcze	PART	part	_	5	advmod:emph	_	bois=[O]
+5	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+
+1	_	”	PUNCT	interp	PunctType=Quot	2	punct	_	bois=[O]
+2	gap	gap	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	_	bois=[O]
+3	:	:	PUNCT	interp	PunctType=Colo	2	punct	_	bois=[O]
+4	unclear	unclear	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	parataxis:obj	_	bois=[O]
+5	_	”	PUNCT	interp	PunctType=Quot	2	punct	_	bois=[O]
+
+1	zobacz	zobaczyć	VERB	impt:sg:sec:perf	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+2	!	!	PUNCT	interp	PunctType=Excl	1	punct	_	bois=[O]
+
+1	odwiąż	odwiążyć	VERB	impt:sg:sec:perf	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+2	odwiąż	odwiążyć	VERB	impt:sg:sec:perf	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	1	iobj	_	bois=[O]
+3	Stasiu	Stasiu	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	2	vocative	_	bois=[B-nam_liv_person_first]
+
+1	Tupek	Tupek	PROPN	subst:sg:nom:n:ncol	Case=Nom|Gender=Masc|Number=Sing	0	root	_	bois=[B-nam_liv_person]
+2	!	!	PUNCT	interp	PunctType=Excl	1	punct	_	bois=[O]
+
+1	ślepy	ślepy	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+2	jestem	być	AUX	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	bois=[O]
+3	pani	pani	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	nmod	_	bois=[O]
+4	Izo	Izo	PROPN	subst:sg:nom:m1	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	bois=[B-nam_liv_person_first]
+
+1	_	”	PUNCT	interp	PunctType=Quot	2	punct	_	bois=[O]
+2	gap	gap	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	_	bois=[O]
+3	:	:	PUNCT	interp	PunctType=Colo	2	punct	_	bois=[O]
+4	unclear	unclear	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	parataxis:obj	_	bois=[O]
+5	_	”	PUNCT	interp	PunctType=Quot	2	punct	_	bois=[O]
+
+1	Izabela	Izabela	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	_	bois=[B-nam_liv_person_first]
+
+1	proszę	prosić	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+2	Stasiu	Stasio	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	3	iobj	_	bois=[B-nam_liv_person_first]
+3	masz	mieć	VERB	fin:sg:sec:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	bois=[O]
+4	patyczka	patyczek	NOUN	subst:sg:acc:m2	Animacy=Nhum|Case=Acc|Gender=Masc|Number=Sing	3	iobj	_	bois=[O]
+
+1	no	no	PART	part	_	5	advmod	_	bois=[O]
+2	właśnie	właśnie	PART	part	_	3	advmod:emph	_	bois=[O]
+3	ten	ten	DET	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	bois=[O]
+4	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	5	cop	_	bois=[O]
+5	Tufik	Tufik	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	bois=[B-nam_liv_person]
+6	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	5	advmod	_	bois=[O]
+7	?	?	PUNCT	interp	PunctType=Qest	5	punct	_	bois=[O]
+
+1	kiedy	kiedy	ADV	adv	PronType=Int	2	advmod	_	bois=[O]
+2	odjeżdżasz	odjeżdżać	VERB	fin:sg:sec:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+3	Iza	Iza	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	bois=[B-nam_liv_person_first]
+4	?	?	PUNCT	interp	PunctType=Qest	2	punct	_	bois=[O]
+
+1	miś	miś	NOUN	subst:sg:nom:m2	Animacy=Nhum|Case=Nom|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+2	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	bois=[O]
+
+1	kiiś	kiiś	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+
+1	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	0	root	_	bois=[O]
+2	?	?	PUNCT	interp	PunctType=Qest	1	punct	_	bois=[O]
+
+1	kiedy	kiedy	ADV	adv	PronType=Int	5	advmod	_	bois=[O]
+2	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	3	case	_	bois=[O]
+3	a	a	CCONJ	conj	_	5	obl	_	bois=[O]
+4	Stefan	Stefan	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	bois=[B-nam_liv_person_first]
+5	pojechał	pojechać	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+6	już	już	PART	part	_	5	advmod:emph	_	bois=[O]
+7	?	?	PUNCT	interp	PunctType=Qest	5	punct	_	bois=[O]
+
+1	daj	dać	VERB	impt:sg:sec:perf	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+2	!	!	PUNCT	interp	PunctType=Excl	1	punct	_	bois=[O]
+
+1	dawno	dawno	ADV	adv:pos	Degree=Pos	2	advmod	_	bois=[O]
+2	pojechał	pojechać	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+
+1	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	2	case	_	bois=[O]
+2	niedzielę	niedziela	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	0	root	_	bois=[O]
+3	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	4	case	_	bois=[O]
+4	poniedziałek	poniedziałek	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	bois=[O]
+
+1	ta	ten	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	0	root	_	bois=[O]
+
+1	no	no	PART	part	_	4	advmod	_	bois=[O]
+2	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	bois=[O]
+3	do	do	ADP	prep:gen	AdpType=Prep	4	case	_	bois=[O]
+4	zobaczenia	zobaczyć	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	0	root	_	bois=[O]
+5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	6	case	_	bois=[O]
+6	domu	dom	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	bois=[O]
+7	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	bois=[O]
+
+1	panie	pan	NOUN	subst:sg:voc:m1	Animacy=Hum|Case=Voc|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+2	Andrzeju	Andrzeju	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	bois=[B-nam_liv_person_first]
+
+1	albo	albo	CCONJ	conj	_	3	cc	_	bois=[O]
+2	na	na	ADP	prep:loc	AdpType=Prep	3	case	_	bois=[O]
+3	cmentarzu	cmentarz	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+
+1	no	no	CCONJ	conj	_	0	root	_	bois=[O]
+2	a	a	CCONJ	conj	_	3	cc	_	bois=[O]
+3	albo	albo	CCONJ	conj	_	1	conj	_	bois=[O]
+4	albo	alby	CCONJ	conj	_	3	cc	_	bois=[O]
+
+1	my	my	PRON	ppron12:pl:nom:m1:pri	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	bois=[O]
+2	się	się	PRON	part	PronType=Prs|Reflex=Yes	4	expl:pv	_	bois=[O]
+3	nie	nie	PART	part	Polarity=Neg	4	advmod:neg	_	bois=[O]
+4	wybieramy	wybierać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+5	na	na	ADP	prep:acc	AdpType=Prep	6	case	_	bois=[O]
+6	cmentarz	cmentarz	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl:arg	_	bois=[O]
+
+1	Iza	Iza	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	_	bois=[B-nam_liv_person_first]
+
+1	my	my	PRON	ppron12:pl:nom:m1:pri	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	bois=[O]
+2	się	się	PRON	part	PronType=Prs|Reflex=Yes	4	expl:pv	_	bois=[O]
+3	nie	nie	PART	part	Polarity=Neg	4	advmod:neg	_	bois=[O]
+4	wybieramy	wybierać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+5	na	na	ADP	prep:acc	AdpType=Prep	7	case	_	bois=[O]
+6	żaden	żaden	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	7	det	_	bois=[O]
+7	cmentarz	cmentarz	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl:arg	_	bois=[O]
+
+1	pani	pani	NOUN	subst:sg:nom:f	Case=Voc|Gender=Fem|Number=Sing	0	root	_	bois=[O]
+2	Izo	Izo	PROPN	subst:sg:nom:f	Case=Voc|Gender=Fem|Number=Sing	1	appos	_	bois=[B-nam_liv_person_first]
+3	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	bois=[O]
+
+1	daj	dać	VERB	impt:sg:sec:perf	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+2	ta	ten	DET	adj:sg:acc:f:pos	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	bois=[O]
+3	Boże	Boże	PROPN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	bois=[B-nam_liv_god]
+
+1	nie	nie	PART	part	Polarity=Neg	2	advmod:neg	_	bois=[O]
+2	mamy	mieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+3	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	bois=[O]
+
+1	poszło	pójść	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+2	na	na	ADP	prep:acc	AdpType=Prep	3	case	_	bois=[O]
+3	zakupy	zakup	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Ptan	1	obl:arg	_	bois=[O]
+4	na	na	ADP	prep:acc	AdpType=Prep	5	case	_	bois=[O]
+5	śniadanie	śniadanie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	bois=[O]
+

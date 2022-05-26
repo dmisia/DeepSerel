@@ -1,0 +1,88 @@
+1	te	ten	DET	adj:pl:nom:f:pos	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	bois=[O]
+2	rzeczy	rzecz	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	0	root	_	bois=[O]
+3	do	do	ADP	prep:gen	AdpType=Prep	4	case	_	bois=[O]
+4	spalenia	spalić	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	2	nmod	_	bois=[O]
+5	bo	bo	SCONJ	comp	_	10	mark	_	bois=[O]
+6	ja	ja	PRON	ppron12:sg:nom:m1:pri	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	bois=[O]
+7	nie	nie	PART	part	Polarity=Neg	8	advmod:neg	_	bois=[O]
+8	będę	być	AUX	bedzie:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	10	aux	_	bois=[O]
+9	ich	on	PRON	ppron3:pl:acc:m1:ter:akc:npraep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	10	obj	_	bois=[O]
+10	wiózł	wieźć	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	bois=[O]
+11	pociągiem	pociąg	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	iobj	_	bois=[O]
+
+1	dobra	dobry	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	bois=[O]
+
+1	właśnie	właśnie	PART	part	_	0	root	_	bois=[O]
+
+1	yyy	yyy	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	bois=[O]
+2	rozumiem	rozumieć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+3	że	że	SCONJ	comp	_	7	mark	_	bois=[O]
+4	pewnie	pewnie	PART	part	_	6	advmod:emph	_	bois=[O]
+5	około	około	ADP	prep:gen	AdpType=Prep	6	case	_	bois=[O]
+6	soboty	sobota	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	bois=[O]
+7	nie	nie	PART	part	Polarity=Neg	2	ccomp	_	bois=[O]
+8	?	?	PUNCT	interp	PunctType=Qest	2	punct	_	bois=[O]
+
+1	mhm	mhm	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	bois=[O]
+
+1	pewnie	pewnie	PART	part	_	4	parataxis:insert	_	bois=[O]
+2	około	około	ADP	prep:gen	AdpType=Prep	3	case	_	bois=[O]
+3	soboty	sobota	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	4	obl	_	bois=[O]
+4	przyjedziesz	przyjech	VERB	fin:sg:sec:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+
+1	ta	ten	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	0	root	_	bois=[O]
+
+1	jeszcze	jeszcze	PART	part	_	3	advmod:emph	_	bois=[O]
+2	te	ten	DET	adj:sg:nom:n:pos	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	bois=[O]
+3	opakowanie	opakowanie	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	0	root	_	bois=[O]
+4	po	po	ADP	prep:loc	AdpType=Prep	5	case	_	bois=[O]
+5	wafelkach	wafelka	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	3	nmod	_	bois=[O]
+
+1	o	o	ADP	prep:loc	AdpType=Prep	2	case	_	bois=[O]
+2	kej	kn	PRON	subst:sg:loc:m1	Animacy=Hum|Case=Loc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	0	root	_	bois=[O]
+
+1	dobra	dobra	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	bois=[O]
+2	nie	nie	PART	part	Polarity=Neg	3	advmod:neg	_	bois=[O]
+3	muszę	musieć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+4	tankować	tankować	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	bois=[O]
+5	no	no	ADV	adv	_	6	advmod	_	bois=[O]
+6	lecę	lecieć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	bois=[O]
+7	po	po	ADP	prep:acc	AdpType=Prep	8	case	_	bois=[O]
+8	prostu	prosty	ADJ	adjp	PrepCase=Pre	6	obl	_	bois=[O]
+
+1	po	po	ADP	prep:acc	AdpType=Prep	2	case	_	bois=[O]
+2	prostu	prosty	ADJ	adjp	PrepCase=Pre	3	obl	_	bois=[O]
+3	leć	lecieć	VERB	impt:sg:sec:perf	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+
+1	po	po	ADP	prep:acc	AdpType=Prep	2	case	_	bois=[O]
+2	prostu	prosty	ADJ	adjp	PrepCase=Pre	4	obl	_	bois=[O]
+3	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	4	advmod	_	bois=[O]
+4	sprawdzę	sprawdzić	VERB	fin:sg:pri:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+
+1	piórnika	piórnik	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obj	_	bois=[O]
+2	by	by	AUX	part	_	5	aux:cnd	_	bois=[O]
+3	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short	5	aux:clitic	_	bois=[O]
+4	nie	nie	PART	part	Polarity=Neg	5	advmod:neg	_	bois=[O]
+5	wziął	wziąć	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+
+1	nic	nic	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	5	nsubj	_	bois=[O]
+2	by	by	AUX	part	_	5	aux:cnd	_	bois=[O]
+3	się	się	PRON	part	PronType=Prs|Reflex=Yes	5	expl:pv	_	bois=[O]
+4	nie	nie	PART	part	Polarity=Neg	5	advmod:neg	_	bois=[O]
+5	stało	stać	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+6	tam	tam	ADV	adv	PronType=Dem	7	advmod	_	bois=[O]
+7	są	być	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	bois=[O]
+8	długopisy	długopis	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	bois=[O]
+
+1	pewnie	pewnie	PART	part	_	2	parataxis:insert	_	bois=[O]
+2	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	6	advmod	_	bois=[O]
+3	ale	ale	CCONJ	conj	_	6	cc	_	bois=[O]
+4	nie	nie	PART	part	Polarity=Neg	2	advmod:neg	_	bois=[O]
+5	moje	mój	DET	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	bois=[O]
+6	ulubione	ulubiony	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	bois=[O]
+
+1	no	no	PART	part	_	2	advmod	_	bois=[O]
+2	dobra	dobry	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	bois=[O]
+
+1	dobra	dobry	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	bois=[O]
+

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:/Users/djanus/pwr/mgr/DeepSerel/imprre/train_retacred.py", line 295, in <module>
+    main()
+  File "C:/Users/djanus/pwr/mgr/DeepSerel/imprre/train_retacred.py", line 277, in main
+    train_features = processor.read(train_file)
+  File "C:\Users\djanus\pwr\mgr\DeepSerel\imprre\prepro.py", line 192, in read
+    data = json.load(fh)
+ujson.JSONDecodeError: Expected object or value

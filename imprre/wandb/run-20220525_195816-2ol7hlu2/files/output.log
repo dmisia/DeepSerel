@@ -1,0 +1,87 @@
+
+Downloading: 100%|██████████| 482/482 [00:00<?, ?B/s]
+Downloading: 100%|██████████| 899k/899k [00:01<00:00, 799kB/s]
+Downloading: 100%|██████████| 456k/456k [00:00<00:00, 884kB/s]
+Downloading: 100%|██████████| 1.36M/1.36M [00:00<00:00, 1.48MB/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Downloading: 100%|██████████| 1.43G/1.43G [02:27<00:00, 9.65MB/s]
+Traceback (most recent call last):
+  File "C:/Users/djanus/pwr/mgr/DeepSerel/imprre/train_retacred.py", line 295, in <module>
+    main()
+  File "C:/Users/djanus/pwr/mgr/DeepSerel/imprre/train_retacred.py", line 277, in main
+    train_features = processor.read(train_file)
+  File "C:\Users\djanus\pwr\mgr\DeepSerel\imprre\prepro.py", line 191, in read
+    with open(file_in, "r") as fh:
+FileNotFoundError: [Errno 2] No such file or directory: './data/retacred\\train.json'

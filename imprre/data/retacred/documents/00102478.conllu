@@ -1,0 +1,17 @@
+1	Małgorzata	Małgorzata	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	bois=[B-nam_liv_person,B-nam_liv_person_first]
+2	Ostrowska	Ostrowska	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	bois=[I-nam_liv_person,B-nam_liv_person_last]
+3	będzie	być	AUX	bedzie:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	cop	_	bois=[O]
+4	gwiazdą	gwiazda	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	0	root	_	bois=[O]
+5	tegorocznych	tegoroczny	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	bois=[O]
+6	Dni	dzień	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod:arg	_	bois=[B-nam_eve_human_cultural]
+7	Ozorkowa	Ozorków	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	bois=[B-nam_loc_gpe_city,I-nam_eve_human_cultural]
+8	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	bois=[O]
+
+1	Artystka	artystka	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	bois=[O]
+2	zawita	zawitać	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	bois=[O]
+3	do	do	ADP	prep:gen	AdpType=Prep	4	case	_	bois=[O]
+4	nas	my	PRON	ppron12:pl:gen:m1:pri	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Person=1|PronType=Prs	2	obl	_	bois=[O]
+5	22	22	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|NumForm=Digit|NumType=Ord	2	obl	_	bois=[O]
+6	maja	maj	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod:flat	_	bois=[O]
+7	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	bois=[O]
+
