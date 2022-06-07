@@ -148,7 +148,7 @@ class TACREDProcessor(Processor):
 
     def read(self, file_in):
         features = []
-        with open(file_in, "r") as fh:
+        with open(file_in, "r", encoding="utf-8") as fh:
             data = json.load(fh)
 
         for d in tqdm(data):
@@ -188,7 +188,7 @@ class RETACREDProcessor(Processor):
 
     def read(self, file_in):
         features = []
-        with open(file_in, "r") as fh:
+        with open(file_in, "r", encoding="utf-8") as fh:
             data = json.load(fh)
 
         for d in tqdm(data):
