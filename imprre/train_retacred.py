@@ -37,14 +37,14 @@ def train(args, model, train_features, benchmarks):
     best_f1=0
     num_steps = 0
     for epoch in range(int(args.num_train_epochs)):
-
+        torch.cuda.empty_cache()
         model.zero_grad()
         for step, batch in enumerate(tqdm(train_dataloader)):
 
             log.debug("step="+str(step))
             log.debug("batch="+str(batch))
 
-
+            torch.cuda.empty_cache()
             model.train()
             inputs = {'input_ids': batch[0].to(args.device),
                       'attention_mask': batch[1].to(args.device),
@@ -64,11 +64,12 @@ def train(args, model, train_features, benchmarks):
             loss = outputs[0] / args.gradient_accumulation_steps
 
             # log.debug("loss = outputs[0]/args.gradient_accumulation_steps = "+str(loss))
-
+            torch.cuda.empty_cache()
             scaler.scale(loss).backward()
 
             # ta część najprawdopodobniej po to by obejść ograniczenia pamięci karty graficznej
             if step % args.gradient_accumulation_steps == 0:
+                torch.cuda.empty_cache()
                 num_steps += 1
                 if args.max_grad_norm > 0:
                     scaler.unscale_(optimizer)
