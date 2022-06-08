@@ -31,35 +31,35 @@ class Processor:
         if self.args.input_format not in ('entity_mask', 'entity_marker', 'entity_marker_punct', 'typed_entity_marker', 'typed_entity_marker_punct'):
             raise Exception("Invalid input format!")
 
-    def tokenize(self, tokens, subj_type, obj_type, ss, se, os, oe):
+    def tokenize(self, tokens, ind_type, obj_type, ss, se, os, oe):
         """
         Implement the following input formats:
-            - entity_mask: [SUBJ-NER], [OBJ-NER].
-            - entity_marker: [E1] subject [/E1], [E2] object [/E2].
-            - entity_marker_punct: @ subject @, # object #.
-            - typed_entity_marker: [SUBJ-NER] subject [/SUBJ-NER], [OBJ-NER] obj [/OBJ-NER]
-            - typed_entity_marker_punct: @ * subject ner type * subject @, # ^ object ner type ^ object #
+            - entity_mask: [IND-NER], [OBJ-NER].
+            - entity_marker: [E1] indect [/E1], [E2] object [/E2].
+            - entity_marker_punct: @ indect @, # object #.
+            - typed_entity_marker: [IND-NER] indect [/IND-NER], [OBJ-NER] obj [/OBJ-NER]
+            - typed_entity_marker_punct: @ * indect ner type * indect @, # ^ object ner type ^ object #
         """
         sents = []
         input_format = self.args.input_format
         if input_format == 'entity_mask':
-            subj_type = '[SUBJ-{}]'.format(subj_type)
+            ind_type = '[IND-{}]'.format(ind_type)
             obj_type = '[OBJ-{}]'.format(obj_type)
-            for token in (subj_type, obj_type):
+            for token in (ind_type, obj_type):
                 if token not in self.new_tokens:
                     self.new_tokens.append(token)
                     self.tokenizer.add_tokens([token])
         elif input_format == 'typed_entity_marker':
-            subj_start = '[SUBJ-{}]'.format(subj_type)
-            subj_end = '[/SUBJ-{}]'.format(subj_type)
+            ind_start = '[IND-{}]'.format(ind_type)
+            ind_end = '[/IND-{}]'.format(ind_type)
             obj_start = '[OBJ-{}]'.format(obj_type)
             obj_end = '[/OBJ-{}]'.format(obj_type)
-            for token in (subj_start, subj_end, obj_start, obj_end):
+            for token in (ind_start, ind_end, obj_start, obj_end):
                 if token not in self.new_tokens:
                     self.new_tokens.append(token)
                     self.tokenizer.add_tokens([token])
         elif input_format == 'typed_entity_marker_punct':
-            subj_type = self.tokenizer.tokenize(subj_type.replace("_", " ").lower())
+            ind_type = self.tokenizer.tokenize(ind_type.replace("_", " ").lower())
             obj_type = self.tokenizer.tokenize(obj_type.replace("_", " ").lower())
 
         for i_t, token in enumerate(tokens):
@@ -70,7 +70,7 @@ class Processor:
                     tokens_wordpiece = []
                     if i_t == ss:
                         new_ss = len(sents)
-                        tokens_wordpiece = [subj_type]
+                        tokens_wordpiece = [ind_type]
                     if i_t == os:
                         new_os = len(sents)
                         tokens_wordpiece = [obj_type]
@@ -102,9 +102,9 @@ class Processor:
             elif input_format == 'typed_entity_marker':
                 if i_t == ss:
                     new_ss = len(sents)
-                    tokens_wordpiece = [subj_start] + tokens_wordpiece
+                    tokens_wordpiece = [ind_start] + tokens_wordpiece
                 if i_t == se:
-                    tokens_wordpiece = tokens_wordpiece + [subj_end]
+                    tokens_wordpiece = tokens_wordpiece + [ind_end]
                 if i_t == os:
                     new_os = len(sents)
                     tokens_wordpiece = [obj_start] + tokens_wordpiece
@@ -114,7 +114,7 @@ class Processor:
             elif input_format == 'typed_entity_marker_punct':
                 if i_t == ss:
                     new_ss = len(sents)
-                    tokens_wordpiece = ['@'] + ['*'] + subj_type + ['*'] + tokens_wordpiece
+                    tokens_wordpiece = ['@'] + ['*'] + ind_type + ['*'] + tokens_wordpiece
                 if i_t == se:
                     tokens_wordpiece = tokens_wordpiece + ['@']
                 if i_t == os:
@@ -137,14 +137,8 @@ class TACREDProcessor(Processor):
 
 
         self.LABEL_TO_ID = {'no_relation': 0,
-                       'affiliation': 1,
-                       'alias': 2,
-                       'composition': 3,
-                       'creator': 4,
-                       'location': 5,
-                       'nationality': 6,
-                       'neighbourhood': 7,
-                       'origin': 8}
+                       'trajector_indicator': 1,
+                       'landmark_indicator': 2}
 
     def read(self, file_in):
         features = []
@@ -152,13 +146,13 @@ class TACREDProcessor(Processor):
             data = json.load(fh)
 
         for d in tqdm(data):
-            ss, se = d['subj_start'], d['subj_end']
+            ss, se = d['ind_start'], d['ind_end']
             os, oe = d['obj_start'], d['obj_end']
 
             tokens = d['token']
             tokens = [convert_token(token) for token in tokens]
 
-            input_ids, new_ss, new_os = self.tokenize(tokens, d['subj_type'], d['obj_type'], ss, se, os, oe)
+            input_ids, new_ss, new_os = self.tokenize(tokens, d['ind_type'], d['obj_type'], ss, se, os, oe)
             rel = self.LABEL_TO_ID[d['relation']]
 
             feature = {
@@ -177,28 +171,23 @@ class RETACREDProcessor(Processor):
         super().__init__(args, tokenizer)
 
         self.LABEL_TO_ID = {'no_relation': 0,
-                            'affiliation': 1,
-                            'alias': 2,
-                            'composition': 3,
-                            'creator': 4,
-                            'location': 5,
-                            'nationality': 6,
-                            'neighbourhood': 7,
-                            'origin': 8}
+                            'trajector_indicator': 1,
+                            'landmark_indicator': 2}
 
     def read(self, file_in):
         features = []
         with open(file_in, "r", encoding="utf-8") as fh:
             data = json.load(fh)
 
+        # for d in tqdm(data.get('chunks')[0]):
         for d in tqdm(data):
-            ss, se = d['subj_start'], d['subj_end']
+            ss, se = d['ind_start'], d['ind_end']
             os, oe = d['obj_start'], d['obj_end']
 
             tokens = d['token']
             tokens = [convert_token(token) for token in tokens]
 
-            input_ids, new_ss, new_os = self.tokenize(tokens, d['subj_type'], d['obj_type'], ss, se, os, oe)
+            input_ids, new_ss, new_os = self.tokenize(tokens, d['ind_type'], d['obj_type'], ss, se, os, oe)
             rel = self.LABEL_TO_ID[d['relation']]
 
             sample_id = d['id']
