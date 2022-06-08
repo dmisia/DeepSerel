@@ -270,9 +270,9 @@ def main():
     model = REModel(args, config)
     model.to(0)
 
-    train_file = os.path.join(args.data_dir, "train_min.json")
-    dev_file = os.path.join(args.data_dir, "dev_min.json")
-    test_file = os.path.join(args.data_dir, "test_min.json")
+    train_file = os.path.join(args.data_dir, "train.json")
+    dev_file = os.path.join(args.data_dir, "dev.json")
+    test_file = os.path.join(args.data_dir, "test.json")
 
     processor = RETACREDProcessor(args, tokenizer)
     train_features = processor.read(train_file)
