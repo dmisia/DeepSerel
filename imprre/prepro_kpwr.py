@@ -137,14 +137,7 @@ class TACREDProcessor(Processor):
 
 
         self.LABEL_TO_ID = {'no_relation': 0,
-                       'affiliation': 1,
-                       'alias': 2,
-                       'composition': 3,
-                       'creator': 4,
-                       'location': 5,
-                       'nationality': 6,
-                       'neighbourhood': 7,
-                       'origin': 8}
+                            'relation': 1}
 
     def read(self, file_in):
         features = []
@@ -177,14 +170,7 @@ class RETACREDProcessor(Processor):
         super().__init__(args, tokenizer)
 
         self.LABEL_TO_ID = {'no_relation': 0,
-                            'affiliation': 1,
-                            'alias': 2,
-                            'composition': 3,
-                            'creator': 4,
-                            'location': 5,
-                            'nationality': 6,
-                            'neighbourhood': 7,
-                            'origin': 8}
+                            'relation': 1}
 
     def read(self, file_in):
         features = []

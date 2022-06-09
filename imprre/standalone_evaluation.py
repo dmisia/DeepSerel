@@ -42,7 +42,7 @@ def do_eval(args, model, benchmarks, processor):
 
 
 
-def evaluate(args, model, features, processor,  tag='dev'):
+def evaluate(args, model, features, processor, tag='dev'):
 
     print('Starting evaluation '+tag)
     log.debug("Starting evaluation "+tag)
@@ -52,15 +52,8 @@ def evaluate(args, model, features, processor,  tag='dev'):
     sentences = []
 
     # wersja KPWr
-    LABEL_TO_ID =      {'no_relation': 0,
-                        'affiliation': 1,
-                        'alias': 2,
-                        'composition': 3,
-                        'creator': 4,
-                        'location': 5,
-                        'nationality': 6,
-                        'neighbourhood': 7,
-                        'origin': 8}
+    LABEL_TO_ID =  {'no_relation': 0,
+                    'relation': 1}
 
     id2label = dict([(v, k) for k, v in LABEL_TO_ID.items()])
 
@@ -73,8 +66,9 @@ def evaluate(args, model, features, processor,  tag='dev'):
 
         inputs = {'input_ids': batch[0].to(args.device),
                   'attention_mask': batch[1].to(args.device),
-                  'ss': batch[3].to(args.device),
-                  'os': batch[4].to(args.device),
+                  'i_s': batch[3].to(args.device),
+                  't_s': batch[4].to(args.device),
+                  'l_s': batch[5].to(args.device)
                   }
 
         current_keys = batch[2].tolist()
@@ -93,6 +87,7 @@ def evaluate(args, model, features, processor,  tag='dev'):
             sent = sent.replace('</s>',' ')
             sent = sent.replace('#','# ')
             sent = sent.replace('@', '@ ')
+            sent = sent.replace('%', '% ')
             # print ("3 sent ="+str(sent))
             current_sentences.append(sent)
 
@@ -102,7 +97,7 @@ def evaluate(args, model, features, processor,  tag='dev'):
         current_preds = current_preds.tolist();
         preds += current_preds
 
-        sample_ids = batch[5]
+        sample_ids = batch[6]
 
         current_negative_sample  = [ (sample_ids[index], current_keys[index],
                                       current_preds[index], current_sentences[index])
@@ -133,7 +128,7 @@ def evaluate(args, model, features, processor,  tag='dev'):
     results_file.close()
 
 
-    print("====scorer====");
+    print("====scorer evaluation====");
     scorer.score(gold_tot, predictions, verbose=True)
     print("====scorer====");
 
@@ -152,15 +147,17 @@ def collate_fn_eval(batch):
     input_ids = [f["input_ids"] + [0] * (max_len - len(f["input_ids"])) for f in batch]
     input_mask = [[1.0] * len(f["input_ids"]) + [0.0] * (max_len - len(f["input_ids"])) for f in batch]
     labels = [f["labels"] for f in batch]
-    ss = [f["ss"] for f in batch]
-    os = [f["os"] for f in batch]
+    i_s = [f["i_s"] for f in batch]
+    t_s = [f["t_s"] for f in batch]
+    l_s = [f["l_s"] for f in batch]
     input_ids = torch.tensor(input_ids, dtype=torch.long)
     input_mask = torch.tensor(input_mask, dtype=torch.float)
     labels = torch.tensor(labels, dtype=torch.long)
-    ss = torch.tensor(ss, dtype=torch.long)
-    os = torch.tensor(os, dtype=torch.long)
+    i_s = torch.tensor(i_s, dtype=torch.long)
+    t_s = torch.tensor(t_s, dtype=torch.long)
+    l_s = torch.tensor(l_s, dtype=torch.long)
     sample_ids = [f["sample_ids"] for f in batch]
-    output = (input_ids, input_mask, labels, ss, os, sample_ids)
+    output = (input_ids, input_mask, labels, i_s, t_s, l_s, sample_ids)
     return output
 
 def extract_ner_types(sent):
@@ -170,9 +167,12 @@ def extract_ner_types(sent):
     start_2 = sent.find('^')+1
     end_2 = sent.find('^',start_2)
 
+    start_3 = sent.find(':')+1
+    end_3 = sent.find(':',start_3)
+
     #print ("S1,E1|S2,E2 = "+str(start_1)+","+str(end_1)+" | "+str(start_2)+","+str(end_2))
 
-    return sent[start_1:end_1], sent[start_2:end_2]
+    return sent[start_1:end_1], sent[start_2:end_2], sent[start_3:end_3]
 
 
 def main():

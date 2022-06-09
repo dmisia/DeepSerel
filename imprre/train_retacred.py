@@ -49,8 +49,9 @@ def train(args, model, train_features, benchmarks):
             inputs = {'input_ids': batch[0].to(args.device),
                       'attention_mask': batch[1].to(args.device),
                       'labels': batch[2].to(args.device),
-                      'ss': batch[3].to(args.device),  # indeksy subjectów w stokenizowanym już wejściu, tylko początki
-                      'os': batch[4].to(args.device),  # indeksy objectów w stokenizowanym już wejściu, tylko początki
+                      'i_s': batch[3].to(args.device),  # indeksy subjectów w stokenizowanym już wejściu, tylko początki
+                      't_s': batch[4].to(args.device),  # indeksy objectów w stokenizowanym już wejściu, tylko początki
+                      'l_s': batch[5].to(args.device),  # indeksy objectów w stokenizowanym już wejściu, tylko początki
                       }
 
             log.debug("inputs = "+str(inputs))
@@ -82,6 +83,7 @@ def train(args, model, train_features, benchmarks):
 
             if (num_steps % args.evaluation_steps == 0 and step % args.gradient_accumulation_steps == 0):
                 for tag, features in benchmarks:
+                    print("Evaluation during trening, epoch: " + str(epoch))
                     f1, output = evaluate(args, model, features, tag=tag)
                     wandb.log(output, step=num_steps)
                     if ( f1 > best_f1 and tag == 'dev' ) :
@@ -90,7 +92,7 @@ def train(args, model, train_features, benchmarks):
                         best_f1 = f1
 
 
-    print ("final checks")
+    print("Evaluation after trening")
     for tag, features in benchmarks:
         f1, output = evaluate(args, model, features, tag=tag)
 
@@ -106,8 +108,9 @@ def evaluate(args, model, features, tag='dev'):
 
         inputs = {'input_ids': batch[0].to(args.device),
                   'attention_mask': batch[1].to(args.device),
-                  'ss': batch[3].to(args.device),
-                  'os': batch[4].to(args.device),
+                  'i_s': batch[3].to(args.device),
+                  't_s': batch[4].to(args.device),
+                  'l_s': batch[5].to(args.device)
                   }
         keys += batch[2].tolist()
         with torch.no_grad():
@@ -123,14 +126,8 @@ def evaluate(args, model, features, tag='dev'):
     # dodane
 
     LABEL_TO_ID = {'no_relation': 0,
-                        'affiliation': 1,
-                        'alias': 2,
-                        'composition': 3,
-                        'creator': 4,
-                        'location': 5,
-                        'nationality': 6,
-                        'neighbourhood': 7,
-                        'origin': 8}
+                   'relation': 1}
+
     id2label = dict([(v, k) for k, v in LABEL_TO_ID.items()])
     predictions = [id2label[p] for p in preds]
     gold_tot = [id2label[p] for p in keys]
@@ -197,13 +194,6 @@ def main():
     parser.add_argument("--max_seq_length", default=512, type=int,
                         help="The maximum total input sequence length after tokenization. Sequences longer "
                              "than this will be truncated.")
-
-    # parser.add_argument("--train_batch_size", default=32, type=int,
-    #                     help="Batch size for training.")
-    # parser.add_argument("--test_batch_size", default=32, type=int,
-    #                     help="Batch size for testing.")
-
-
     parser.add_argument("--train_batch_size", default=8, type=int,
                         help="Batch size for training.")
     parser.add_argument("--test_batch_size", default=8, type=int,
@@ -232,7 +222,7 @@ def main():
     # parser.add_argument("--num_train_epochs", default=1.0, type=float,
     #                   help = "Total number of training epochs to perform.")
 
-    parser.add_argument("--num_train_epochs", default=20.0, type=float,
+    parser.add_argument("--num_train_epochs", default=10.0, type=float,
                         help="Total number of training epochs to perform.")
     # parser.add_argument("--seed", type=int, default=42,
     #                     help="random seed for initialization")
@@ -240,7 +230,8 @@ def main():
     #
     parser.add_argument("--seed", type=int, default=9,
                         help="random seed for initialization")
-    parser.add_argument("--num_class", type=int, default=9)
+    #dwie klasy -> relation lub no_relation
+    parser.add_argument("--num_class", type=int, default=2)
 
     parser.add_argument("--evaluation_steps", type=int, default=500,
                         help="Number of steps to evaluate the model")
@@ -274,9 +265,9 @@ def main():
     # dev_file = os.path.join(args.data_dir, "dev_min.json")
     # test_file = os.path.join(args.data_dir, "test_min.json")
 
-    train_file = os.path.join(args.data_dir, "train_spatial.json")
-    dev_file = os.path.join(args.data_dir, "dev_spatial.json")
-    test_file = os.path.join(args.data_dir, "test_spatial.json")
+    train_file = os.path.join(args.data_dir, "train_tripples.json")
+    dev_file = os.path.join(args.data_dir, "dev_tripples.json")
+    test_file = os.path.join(args.data_dir, "test_tripples.json")
 
     processor = RETACREDProcessor(args, tokenizer)
     train_features = processor.read(train_file)

@@ -21,14 +21,14 @@ class REModel(nn.Module):
         hidden_size = config.hidden_size
         self.loss_fnt = nn.CrossEntropyLoss()
         self.classifier = nn.Sequential(
-            nn.Linear(2 * hidden_size, hidden_size),
+            nn.Linear(3 * hidden_size, hidden_size), # dodany jeden argument
             nn.ReLU(),
             nn.Dropout(p=args.dropout_prob),
             nn.Linear(hidden_size, args.num_class)
         )
 
     @autocast()
-    def forward(self, input_ids=None, attention_mask=None, labels=None, ss=None, os=None):
+    def forward(self, input_ids=None, attention_mask=None, labels=None, i_s=None, t_s=None, l_s=None):
         outputs = self.encoder(
             input_ids,
             attention_mask=attention_mask,
@@ -45,21 +45,16 @@ class REModel(nn.Module):
 
         log.debug("idx= " + str(idx))
 
-        ss_emb = pooled_output[idx, ss]
-        log.debug("ss_emb = " + str(ss_emb))
+        i_s_emb = pooled_output[idx, i_s]
+        log.debug("i_s_emb = " + str(i_s_emb))
 
+        t_s_emb = pooled_output[idx, t_s]
+        log.debug("t_s_emb = " + str(t_s_emb))
 
-        #print ( 'idx.shape =' + str(idx.shape)  )
-        #print ( 'idx = '+ str(idx.shape) + ' os = ' + str(os.shape))
+        l_s_emb = pooled_output[idx, l_s]
+        log.debug("l_s_emb = " + str(l_s_emb))
 
-        # if (idx.shape != os.shape) :
-        #     print ('OK ')
-
-        os_emb = pooled_output[idx, os]
-        log.debug("os_emb = " + str(os_emb))
-
-
-        h = torch.cat((ss_emb, os_emb), dim=-1)
+        h = torch.cat((i_s_emb, t_s_emb, l_s_emb), dim=-1)
         log.debug("h = " + str(h))
 
 
