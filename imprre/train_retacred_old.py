@@ -267,12 +267,12 @@ def main():
 
     train_file = os.path.join(args.data_dir, "train_triples.json")
     dev_file = os.path.join(args.data_dir, "dev_triples.json")
-    test_file = os.path.join(args.data_dir, "test_true_triples.json")
+    test_file = os.path.join(args.data_dir, "test_triples.json")
 
     processor = RETACREDProcessor(args, tokenizer)
     train_features = processor.read(train_file)
     dev_features = processor.read(dev_file)
-    test_features = processor.readTest(test_file)
+    test_features = processor.read(test_file)
 
     if len(processor.new_tokens) > 0:
         model.encoder.resize_token_embeddings(len(tokenizer))
