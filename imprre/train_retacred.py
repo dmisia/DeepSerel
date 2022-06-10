@@ -265,9 +265,9 @@ def main():
     # dev_file = os.path.join(args.data_dir, "dev_min.json")
     # test_file = os.path.join(args.data_dir, "test_min.json")
 
-    train_file = os.path.join(args.data_dir, "train_tripples.json")
-    dev_file = os.path.join(args.data_dir, "dev_tripples.json")
-    test_file = os.path.join(args.data_dir, "test_tripples.json")
+    train_file = os.path.join(args.data_dir, "train_triples.json")
+    dev_file = os.path.join(args.data_dir, "dev_triples.json")
+    test_file = os.path.join(args.data_dir, "test_true_triples.json")
 
     processor = RETACREDProcessor(args, tokenizer)
     train_features = processor.read(train_file)

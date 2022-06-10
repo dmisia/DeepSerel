@@ -1,6 +1,7 @@
 from tqdm import tqdm
 import ujson as json
-
+import itertools
+import operator
 
 def convert_token(token):
     """ Convert PTB tokens to normal tokens """
@@ -208,3 +209,68 @@ class RETACREDProcessor(Processor):
 
             features.append(feature)
         return features
+
+    def readTest(self, file_in):
+            features = []
+            with open(file_in, "r", encoding="utf-8") as fh:
+                data = json.load(fh)
+
+            # generate
+            get_item = operator.itemgetter('token')
+            grouped_data = [list(g) for k, g in itertools.groupby(sorted(data, key=get_item), get_item)]
+
+            for group in grouped_data:
+                true_triples = []
+                for sentence in group:
+                    triple = []
+                    triple.append(sentence['ind_start'])
+                    triple.append(sentence['tra_start'])
+                    triple.append(sentence['lan_start'])
+                    true_triples.append(triple)
+                # check number of tokens (words)
+                sentence = group[0]
+                num_indexes = len(sentence['token'])-1
+                triple_combinations = [list(x) for x in itertools.combinations(list(range(0,num_indexes)), 3)]
+                for t in triple_combinations:
+                    if t not in true_triples:
+                        chunk = {
+                            "id": sentence['id'],
+                            "relation": "no_relation",
+                            "token": sentence['token'],
+                            "ind_start": t[0],
+                            "ind_end": t[0],
+                            "ind_type": sentence['ctags'][t[0]],
+                            "tra_start": t[1],
+                            "tra_end": t[1],
+                            "tra_type": sentence['ctags'][t[1]],
+                            "lan_start": t[2],
+                            "lan_end": t[2],
+                            "lan_type": sentence['ctags'][t[2]]
+                        }
+                        # group.append(chunk)
+                        data.append(chunk)
+
+            for d in tqdm(data):
+                i_s, i_e = d['ind_start'], d['ind_end']
+                t_s, t_e = d['tra_start'], d['tra_end']
+                l_s, l_e = d['lan_start'], d['lan_end']
+
+                tokens = d['token']
+                tokens = [convert_token(token) for token in tokens]
+
+                input_ids, new_i_s, new_t_s, new_l_s = self.tokenize(tokens, d['ind_type'], d['tra_type'], d['lan_type'], i_s, i_e, t_s, t_e, l_s, l_e)
+                rel = self.LABEL_TO_ID[d['relation']]
+
+                sample_id = d['id']
+
+                feature = {
+                    'input_ids': input_ids,
+                    'labels': rel,
+                    'i_s': new_i_s,
+                    't_s': new_t_s,
+                    'l_s': new_l_s,
+                    'sample_ids': sample_id,
+                }
+
+                features.append(feature)
+            return features
