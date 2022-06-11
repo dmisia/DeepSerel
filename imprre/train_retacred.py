@@ -83,20 +83,21 @@ def train(args, model, train_features, benchmarks):
 
             if (num_steps % args.evaluation_steps == 0 and step % args.gradient_accumulation_steps == 0):
                 for tag, features in benchmarks:
-                    print("Evaluation during trening, epoch: " + str(epoch))
-                    f1, output = evaluate(args, model, features, tag=tag)
-                    wandb.log(output, step=num_steps)
-                    if ( f1 > best_f1 and tag == 'dev' ) :
-                        print("Best ckpt and saved.")
-                        torch.save({'state_dict': model.state_dict()}, "checkpoint/imprre.pth.tar")
-                        best_f1 = f1
+                    if tag == 'dev':
+                        print("\nEvaluation during trening on dev set, epoch: " + str(epoch))
+                        f1, output = evaluate(args, model, features, tag=tag)
+                        wandb.log(output, step=num_steps)
+                        if ( f1 > best_f1 and tag == 'dev' ) :
+                            print("Best ckpt and saved.")
+                            torch.save({'state_dict': model.state_dict()}, "checkpoint/imprre.pth.tar")
+                            best_f1 = f1
 
 
-    print("Evaluation after trening")
+    print("\nEvaluation after trening on test set")
     for tag, features in benchmarks:
-        f1, output = evaluate(args, model, features, tag=tag)
-
-        wandb.log(output, step=num_steps)
+        if tag == 'test':
+            f1, output = evaluate(args, model, features, tag=tag)
+            wandb.log(output, step=num_steps)
 
 
 def evaluate(args, model, features, tag='dev'):
