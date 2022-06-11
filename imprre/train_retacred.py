@@ -81,7 +81,7 @@ def train(args, model, train_features, benchmarks):
                 model.zero_grad()
                 wandb.log({'loss': loss.item()}, step=num_steps)
 
-            if (num_steps % args.evaluation_steps == 0 and step % args.gradient_accumulation_steps == 0):
+            '''if (num_steps % args.evaluation_steps == 0 and step % args.gradient_accumulation_steps == 0):
                 for tag, features in benchmarks:
                     if tag == 'dev':
                         print("\nEvaluation during trening on dev set, epoch: " + str(epoch))
@@ -90,7 +90,7 @@ def train(args, model, train_features, benchmarks):
                         if ( f1 > best_f1 and tag == 'dev' ) :
                             print("Best ckpt and saved.")
                             torch.save({'state_dict': model.state_dict()}, "checkpoint/imprre.pth.tar")
-                            best_f1 = f1
+                            best_f1 = f1'''
 
 
     print("\nEvaluation after trening on test set")
@@ -133,16 +133,17 @@ def evaluate(args, model, features, tag='dev'):
     predictions = [id2label[p] for p in preds]
     gold_tot = [id2label[p] for p in keys]
 
-    print("====scorer====");
-    scorer.score(gold_tot,predictions,verbose=True)
-    print("====scorer====");
+    if tag != 'dev':
+        print("====scorer====")
+        scorer.score(gold_tot,predictions,verbose=True)
+        print("====scorer====")
 
     output = {
         tag + "_f1": max_f1 * 100,
         tag + "_pr": prec_micro * 100,
         tag + "_re": recall_micro * 100,
     }
-    print(output )
+    print(output)
     return max_f1, output
 
 
@@ -268,7 +269,7 @@ def main():
 
     train_file = os.path.join(args.data_dir, "train_triples_enh.json")
     dev_file = os.path.join(args.data_dir, "dev_triples.json")
-    test_file = os.path.join(args.data_dir, "test_true_triples.json")
+    test_file = os.path.join(args.data_dir, "test_true_mid.json")
 
     processor = RETACREDProcessor(args, tokenizer)
     train_features = processor.read(train_file)

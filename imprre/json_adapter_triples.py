@@ -76,7 +76,7 @@ for file in os.listdir("./data/inforex_export_637/documents"):
                         right_non_rel_tokens = [e for e in non_rel_tokens if e['token_id'] > spatial_indicator_index]
 
                         # jeden przykład z tym samym SP IND, lecz innymi rzeczownikami
-                        for _ in range(3):
+                        for _ in range(2):
                             if len(non_rel_nouns) > 1:
                                 no_rel_tra = random.choice(non_rel_nouns)
                                 no_rel_lan = random.choice(non_rel_nouns)
@@ -135,7 +135,7 @@ for file in os.listdir("./data/inforex_export_637/documents"):
                             chunks.append(chunk)
 
                         # jeden przykład z randomowymi danymi
-                        for _ in range(3):
+                        for _ in range(2):
                             no_rel_tra = random.choice(non_rel_tokens)
                             no_rel_lan = random.choice(non_rel_tokens)
                             no_rel_ind = random.choice(non_rel_tokens)
