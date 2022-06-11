@@ -3,14 +3,14 @@ import os
 import random
 
 
-file_out = os.path.join('./data/retacred', "test_true_triples.json")
+file_out = os.path.join('./data/retacred', "train_triples_enh.json")
 chunks = []
 
 ## 37 - train ;  33 - test
-for file in os.listdir("./data/inforex_export_633/documents"):
+for file in os.listdir("./data/inforex_export_637/documents"):
     if file.endswith(".json"):
         # print("Convertion of " + file)
-        file_in = os.path.join('./data/inforex_export_633/documents', file)
+        file_in = os.path.join('./data/inforex_export_637/documents', file)
 
         with open(file_in, "r", encoding="utf-8") as fh:
             data = json.load(fh)
@@ -62,11 +62,11 @@ for file in os.listdir("./data/inforex_export_633/documents"):
                                     "tra_type": tra['ctag'],
                                     "lan_start": lan['token_id'],
                                     "lan_end": lan['token_id'],
-                                    "lan_type": lan['ctag'],
-                                    "ctags" : ctag
+                                    "lan_type": lan['ctag']
+                                    # "ctags" : ctag
                                 }
                                 chunks.append(chunk)
-''' odkomentować do wygenerowania no_relacji
+
                         # znajdź tokeny nie będące w relacji
                         non_rel_tokens = [e for e in d if e not in trajectors and e not in landmarks and e['ctag'] is not None]
                         # rzeczowniki niebędące w relacjach
@@ -76,82 +76,85 @@ for file in os.listdir("./data/inforex_export_633/documents"):
                         right_non_rel_tokens = [e for e in non_rel_tokens if e['token_id'] > spatial_indicator_index]
 
                         # jeden przykład z tym samym SP IND, lecz innymi rzeczownikami
-                        if len(non_rel_nouns) > 1:
-                            no_rel_tra = random.choice(non_rel_nouns)
-                            no_rel_lan = random.choice(non_rel_nouns)
-                        else:
-                            no_rel_tra = random.choice(non_rel_tokens)
-                            no_rel_lan = random.choice(non_rel_tokens)
-                        chunk = {
-                            "id": file,
-                            "relation": "no_relation",
-                            "token": orth,
-                            "ind_start": spatial_indicator_index,
-                            "ind_end": spatial_indicator_index,
-                            "ind_type": spatial_indicator_ctag,
-                            "tra_start": no_rel_tra['token_id'],
-                            "tra_end": no_rel_tra['token_id'],
-                            "tra_type": no_rel_tra['ctag'],
-                            "lan_start": no_rel_lan['token_id'],
-                            "lan_end": no_rel_lan['token_id'],
-                            "lan_type": no_rel_lan['ctag'],
-                            "ctags" : ctag
-                        }
-                        chunks.append(chunk)
+                        for _ in range(3):
+                            if len(non_rel_nouns) > 1:
+                                no_rel_tra = random.choice(non_rel_nouns)
+                                no_rel_lan = random.choice(non_rel_nouns)
+                            else:
+                                no_rel_tra = random.choice(non_rel_tokens)
+                                no_rel_lan = random.choice(non_rel_tokens)
+                            chunk = {
+                                "id": file,
+                                "relation": "no_relation",
+                                "token": orth,
+                                "ind_start": spatial_indicator_index,
+                                "ind_end": spatial_indicator_index,
+                                "ind_type": spatial_indicator_ctag,
+                                "tra_start": no_rel_tra['token_id'],
+                                "tra_end": no_rel_tra['token_id'],
+                                "tra_type": no_rel_tra['ctag'],
+                                "lan_start": no_rel_lan['token_id'],
+                                "lan_end": no_rel_lan['token_id'],
+                                "lan_type": no_rel_lan['ctag']
+                                # "ctags" : ctag
+                            }
+                            chunks.append(chunk)
 
                         # jeden przykład z tym samym SP IND, i innymi wyrazami ale blisko z prawej i lewej
-                        if len(right_non_rel_tokens) != 0:
-                            if len(right_non_rel_tokens) > 4:
-                                no_rel_lan = random.choice(right_non_rel_tokens[:4])
+                        for _ in range(2):
+                            if len(right_non_rel_tokens) != 0:
+                                if len(right_non_rel_tokens) > 4:
+                                    no_rel_lan = random.choice(right_non_rel_tokens[:4])
+                                else:
+                                    no_rel_lan = random.choice(right_non_rel_tokens)
                             else:
-                                no_rel_lan = random.choice(right_non_rel_tokens)
-                        else:
-                            no_rel_lan = random.choice(non_rel_tokens)
-                        if len(left_non_rel_tokens) != 0:
-                            if len(left_non_rel_tokens) > 4:
-                                no_rel_tra = random.choice(left_non_rel_tokens[-4:])
+                                no_rel_lan = random.choice(non_rel_tokens)
+                            if len(left_non_rel_tokens) != 0:
+                                if len(left_non_rel_tokens) > 4:
+                                    no_rel_tra = random.choice(left_non_rel_tokens[-4:])
+                                else:
+                                    no_rel_tra = random.choice(left_non_rel_tokens)
                             else:
-                                no_rel_tra = random.choice(left_non_rel_tokens)
-                        else:
-                            no_rel_tra = random.choice(non_rel_tokens)
+                                no_rel_tra = random.choice(non_rel_tokens)
 
-                        chunk = {
-                            "id": file,
-                            "relation": "no_relation",
-                            "token": orth,
-                            "ind_start": spatial_indicator_index,
-                            "ind_end": spatial_indicator_index,
-                            "ind_type": spatial_indicator_ctag,
-                            "tra_start": no_rel_tra['token_id'],
-                            "tra_end": no_rel_tra['token_id'],
-                            "tra_type": no_rel_tra['ctag'],
-                            "lan_start": no_rel_lan['token_id'],
-                            "lan_end": no_rel_lan['token_id'],
-                            "lan_type": no_rel_lan['ctag'],
-                            "ctags" : ctag
-                        }
-                        chunks.append(chunk)
+                            chunk = {
+                                "id": file,
+                                "relation": "no_relation",
+                                "token": orth,
+                                "ind_start": spatial_indicator_index,
+                                "ind_end": spatial_indicator_index,
+                                "ind_type": spatial_indicator_ctag,
+                                "tra_start": no_rel_tra['token_id'],
+                                "tra_end": no_rel_tra['token_id'],
+                                "tra_type": no_rel_tra['ctag'],
+                                "lan_start": no_rel_lan['token_id'],
+                                "lan_end": no_rel_lan['token_id'],
+                                "lan_type": no_rel_lan['ctag']
+                                # "ctags" : ctag
+                            }
+                            chunks.append(chunk)
 
                         # jeden przykład z randomowymi danymi
-                        no_rel_tra = random.choice(non_rel_tokens)
-                        no_rel_lan = random.choice(non_rel_tokens)
-                        no_rel_ind = random.choice(non_rel_tokens)
-                        chunk = {
-                            "id": file,
-                            "relation": "no_relation",
-                            "token": orth,
-                            "ind_start": no_rel_ind['token_id'],
-                            "ind_end": no_rel_ind['token_id'],
-                            "ind_type": no_rel_ind['ctag'],
-                            "tra_start": no_rel_tra['token_id'],
-                            "tra_end": no_rel_tra['token_id'],
-                            "tra_type": no_rel_tra['ctag'],
-                            "lan_start": no_rel_lan['token_id'],
-                            "lan_end": no_rel_lan['token_id'],
-                            "lan_type": no_rel_lan['ctag'],
-                            "ctags" : ctag
-                        }
-                        chunks.append(chunk)
-'''
+                        for _ in range(3):
+                            no_rel_tra = random.choice(non_rel_tokens)
+                            no_rel_lan = random.choice(non_rel_tokens)
+                            no_rel_ind = random.choice(non_rel_tokens)
+                            chunk = {
+                                "id": file,
+                                "relation": "no_relation",
+                                "token": orth,
+                                "ind_start": no_rel_ind['token_id'],
+                                "ind_end": no_rel_ind['token_id'],
+                                "ind_type": no_rel_ind['ctag'],
+                                "tra_start": no_rel_tra['token_id'],
+                                "tra_end": no_rel_tra['token_id'],
+                                "tra_type": no_rel_tra['ctag'],
+                                "lan_start": no_rel_lan['token_id'],
+                                "lan_end": no_rel_lan['token_id'],
+                                "lan_type": no_rel_lan['ctag']
+                                # "ctags" : ctag
+                            }
+                            chunks.append(chunk)
+
 with open(file_out, "w", encoding="utf-8") as outfile:
     json.dump(chunks, outfile, indent=4, sort_keys=False, ensure_ascii=False)
