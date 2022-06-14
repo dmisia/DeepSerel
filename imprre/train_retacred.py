@@ -267,7 +267,7 @@ def main():
     # dev_file = os.path.join(args.data_dir, "dev_min.json")
     # test_file = os.path.join(args.data_dir, "test_min.json")
 
-    train_file = os.path.join(args.data_dir, "train_triples_enh.json")
+    train_file = os.path.join(args.data_dir, "train_triples_3.json")
     dev_file = os.path.join(args.data_dir, "dev_triples.json")
     test_file = os.path.join(args.data_dir, "test_true_mid.json")
 
